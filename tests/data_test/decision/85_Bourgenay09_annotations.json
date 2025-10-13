@@ -1,0 +1,349 @@
+{
+  "nom_fichier": "85_Bourgenay09.pdf",
+  "zone_geographique": "Port de plaisance de Bourgenay, 5,5 M au Sud-Est des Sables-d'Olonne",
+  "departement": "85",
+
+  "metadonnees_document": {
+    "type_document": "CdP",
+    "numero_decision": "Procès-verbal N° 10",
+    "date_decision": "1994-05-26",
+    "autorite_emettrice": "Commission des Phares - Commission Permanente",
+    "contexte": "Maintien définitif de la signalisation améliorée du chenal d'accès au port de plaisance de Bourgenay"
+  },
+
+  "aides": [
+    {
+      "syssi": null,
+      "nom_patrimoine": "Bouée d'eaux saines Bourgenay",
+      "nom_alternatif": null,
+
+      "position": {
+        "latitude": null,
+        "longitude": null,
+        "texte_source": "mouillée à proximité de la ligne des fonds de 10 m, à tribord de l'alignement d'accès",
+        "systeme": null,
+        "precision": null
+      },
+
+      "caracteristiques_physiques": {
+        "nature_support": "Bouée",
+        "type_bouee": "sphérique",
+        "diametre_mm": null,
+        "hauteur_m": null,
+        "marque_type": "Eaux saines",
+        "couleur_jour": "Rouge et blanc (rayures verticales)",
+        "voyant": true,
+        "forme_voyant": "Sphère"
+      },
+
+      "equipements": {
+        "bande_retro": false,
+        "reflecteur_radar": false,
+
+        "feu": {
+          "present": true,
+          "couleur": "blanc",
+          "rythme": "LFl",
+          "periode_s": 10.0,
+          "portee_M": 5,
+          "secteurs": "tout_horizon",
+          "texte_source": "feu à éclats longs (10 s), blanc, d'une portée nominale d'environ 5 M"
+        },
+
+        "aide_sonore": {
+          "present": false,
+          "type": null,
+          "rythme": null
+        },
+
+        "ais_aton": false,
+        "racon": {
+          "present": false,
+          "lettre_morse": null
+        }
+      },
+
+      "notes": "Maintien définitif demandé en 1994"
+    },
+    {
+      "syssi": null,
+      "nom_patrimoine": "Petite bouée tribord Bourgenay",
+      "nom_alternatif": "Bouée tribord de la roche",
+
+      "position": {
+        "latitude": null,
+        "longitude": null,
+        "texte_source": "mouillée à 100 m environ de la balise du haut-fond",
+        "systeme": null,
+        "precision": null
+      },
+
+      "caracteristiques_physiques": {
+        "nature_support": "Bouée",
+        "type_bouee": "conique",
+        "diametre_mm": null,
+        "hauteur_m": null,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "voyant": true,
+        "forme_voyant": "Cône"
+      },
+
+      "equipements": {
+        "bande_retro": false,
+        "reflecteur_radar": false,
+
+        "feu": {
+          "present": false,
+          "couleur": null,
+          "rythme": null,
+          "periode_s": null,
+          "portee_M": null,
+          "secteurs": null,
+          "texte_source": "bouée de tribord, non lumineuse"
+        },
+
+        "aide_sonore": {
+          "present": false,
+          "type": null,
+          "rythme": null
+        },
+
+        "ais_aton": false,
+        "racon": {
+          "present": false,
+          "lettre_morse": null
+        }
+      },
+
+      "notes": "Signale une roche. Maintien définitif demandé en 1994"
+    },
+    {
+      "syssi": null,
+      "nom_patrimoine": "Feu antérieur alignement 40° Bourgenay",
+      "nom_alternatif": "Feu antérieur du môle Est",
+
+      "position": {
+        "latitude": null,
+        "longitude": null,
+        "texte_source": "à la cote (14,60) sur le môle Est de protection du port",
+        "systeme": null,
+        "precision": null
+      },
+
+      "caracteristiques_physiques": {
+        "nature_support": "Feu",
+        "type_bouee": null,
+        "diametre_mm": null,
+        "hauteur_m": 14.6,
+        "marque_type": "Alignement",
+        "couleur_jour": null,
+        "voyant": false,
+        "forme_voyant": null
+      },
+
+      "equipements": {
+        "bande_retro": false,
+        "reflecteur_radar": false,
+
+        "feu": {
+          "present": true,
+          "couleur": "vert",
+          "rythme": "Scintillant",
+          "periode_s": 1.2,
+          "portee_M": 8.5,
+          "secteurs": "sectoriel",
+          "texte_source": "feu scintillant (1,2 s), visible sur un secteur de 40° (020° à 060°), obscur sur un secteur de 320° (060° à 020°)"
+        },
+
+        "aide_sonore": {
+          "present": false,
+          "type": null,
+          "rythme": null
+        },
+
+        "ais_aton": false,
+        "racon": {
+          "present": false,
+          "lettre_morse": null
+        }
+      },
+
+      "notes": "Configuration définitive avec secteur visible 40°"
+    },
+    {
+      "syssi": null,
+      "nom_patrimoine": "Feu postérieur alignement 40° Bourgenay",
+      "nom_alternatif": "Feu postérieur sur rivage",
+
+      "position": {
+        "latitude": null,
+        "longitude": null,
+        "texte_source": "à 212 m en arrière, à la cote (24,50) sur le rivage",
+        "systeme": null,
+        "precision": null
+      },
+
+      "caracteristiques_physiques": {
+        "nature_support": "Feu",
+        "type_bouee": null,
+        "diametre_mm": null,
+        "hauteur_m": 24.5,
+        "marque_type": "Alignement",
+        "couleur_jour": null,
+        "voyant": false,
+        "forme_voyant": null
+      },
+
+      "equipements": {
+        "bande_retro": false,
+        "reflecteur_radar": false,
+
+        "feu": {
+          "present": true,
+          "couleur": "vert",
+          "rythme": "Scintillant",
+          "periode_s": 1.2,
+          "portee_M": 8.5,
+          "secteurs": "sectoriel",
+          "texte_source": "feu scintillant (1,2 s), visible sur un secteur de 60° (010° à 070°), obscur sur un secteur de 300° (070° à 010°)"
+        },
+
+        "aide_sonore": {
+          "present": false,
+          "type": null,
+          "rythme": null
+        },
+
+        "ais_aton": false,
+        "racon": {
+          "present": false,
+          "lettre_morse": null
+        }
+      },
+
+      "notes": "Configuration définitive avec secteur visible 60°"
+    },
+    {
+      "syssi": null,
+      "nom_patrimoine": "Panneau de jour antérieur alignement 40° Bourgenay",
+      "nom_alternatif": null,
+
+      "position": {
+        "latitude": null,
+        "longitude": null,
+        "texte_source": "sur le support du feu antérieur à la cote (14,60) sur le môle Est",
+        "systeme": null,
+        "precision": null
+      },
+
+      "caracteristiques_physiques": {
+        "nature_support": "Panneau",
+        "type_bouee": null,
+        "diametre_mm": null,
+        "hauteur_m": 14.6,
+        "marque_type": "Alignement",
+        "couleur_jour": "Noir et blanc zébré",
+        "voyant": false,
+        "forme_voyant": null
+      },
+
+      "equipements": {
+        "bande_retro": false,
+        "reflecteur_radar": false,
+
+        "feu": {
+          "present": false,
+          "couleur": null,
+          "rythme": null,
+          "periode_s": null,
+          "portee_M": null,
+          "secteurs": null,
+          "texte_source": null
+        },
+
+        "aide_sonore": {
+          "present": false,
+          "type": null,
+          "rythme": null
+        },
+
+        "ais_aton": false,
+        "racon": {
+          "present": false,
+          "lettre_morse": null
+        }
+      },
+
+      "notes": "Panneau zébré noir et blanc, agrandi pour améliorer visibilité devant bâtiment blanc. Dimensions 2m largeur x 1,5m hauteur (agrandissement demandé)"
+    },
+    {
+      "syssi": null,
+      "nom_patrimoine": "Panneau de jour postérieur alignement 40° Bourgenay",
+      "nom_alternatif": null,
+
+      "position": {
+        "latitude": null,
+        "longitude": null,
+        "texte_source": "sur le support du feu postérieur à la cote (24,50) sur le rivage",
+        "systeme": null,
+        "precision": null
+      },
+
+      "caracteristiques_physiques": {
+        "nature_support": "Panneau",
+        "type_bouee": null,
+        "diametre_mm": null,
+        "hauteur_m": 24.5,
+        "marque_type": "Alignement",
+        "couleur_jour": "Noir et blanc zébré",
+        "voyant": false,
+        "forme_voyant": null
+      },
+
+      "equipements": {
+        "bande_retro": false,
+        "reflecteur_radar": false,
+
+        "feu": {
+          "present": false,
+          "couleur": null,
+          "rythme": null,
+          "periode_s": null,
+          "portee_M": null,
+          "secteurs": null,
+          "texte_source": null
+        },
+
+        "aide_sonore": {
+          "present": false,
+          "type": null,
+          "rythme": null
+        },
+
+        "ais_aton": false,
+        "racon": {
+          "present": false,
+          "lettre_morse": null
+        }
+      },
+
+      "notes": "Panneau zébré noir et blanc. Dimensions 2m largeur x 1,5m hauteur"
+    }
+  ],
+
+  "notes_extraction": {
+    "qualite_ocr": "moyenne",
+    "difficultes": [
+      "Positions GPS absolues non indiquées dans le texte",
+      "Schéma E 173.16 joint peu lisible",
+      "Balise-espar du haut-fond mentionnée dans l'historique mais pas dans la décision finale à maintenir"
+    ],
+    "ambiguites": [
+      "Positions exactes des aides à valider sur carte SHOM 6522",
+      "SYSSI non mentionnés dans ce document",
+      "Statut de la balise-espar tribord du haut-fond : mentionnée en début de document mais absente de la conclusion"
+    ],
+    "total_aides_detectees": 6
+  }
+}

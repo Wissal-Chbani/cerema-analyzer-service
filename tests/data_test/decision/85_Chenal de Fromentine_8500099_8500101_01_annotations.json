@@ -1,0 +1,137 @@
+{
+  "nom_fichier": "85_Chenal de Fromentine_8500099_8500101_01.pdf",
+  "zone_geographique": "Chenal de Fromentine - Pont de Noirmoutier",
+  "departement": "85",
+
+  "metadonnees_document": {
+    "type_document": "Prise en considération (équivalent DM)",
+    "numero_decision": "SM4 N° 3",
+    "date_decision": "2015-09-10",
+    "autorite_emettrice": "Direction des affaires maritimes (DAM) - Sous-directeur de la sécurité maritime Jean-Luc LIBOUX",
+    "contexte": "Régularisation de deux bouées remplaçant des panneaux disparus suite à incidents (2007 et 2009)"
+  },
+
+  "aides": [
+    {
+      "syssi": "8500101",
+      "nom_patrimoine": "Bouée bâbord aval Nord",
+      "nom_alternatif": "Panneau du duc d'Albe aval Nord (ancien nom)",
+
+      "position": {
+        "latitude": 46.892483,
+        "longitude": -2.150567,
+        "texte_source": "46°53,549' N — 002°09,034' W",
+        "systeme": "WGS84",
+        "precision": null
+      },
+
+      "caracteristiques_physiques": {
+        "nature_support": "Bouée",
+        "type_bouee": "Mobilis jet 2500",
+        "diametre_mm": null,
+        "hauteur_m": null,
+        "marque_type": "Latérale bâbord",
+        "couleur_jour": "Vert",
+        "voyant": false,
+        "forme_voyant": null
+      },
+
+      "equipements": {
+        "bande_retro": false,
+        "reflecteur_radar": true,
+
+        "feu": {
+          "present": false,
+          "couleur": null,
+          "rythme": null,
+          "periode_s": null,
+          "portee_M": null,
+          "secteurs": null,
+          "texte_source": null
+        },
+
+        "aide_sonore": {
+          "present": false,
+          "type": null,
+          "rythme": null
+        },
+
+        "ais_aton": false,
+        "racon": {
+          "present": false,
+          "lettre_morse": null
+        }
+      },
+
+      "notes": "Bouée passive remplaçant un panneau signalé disparu le 05/11/2007. Ligne de mouillage: 20 m (calibre 30 mm). Corps-mort: 1100 kg avec ancrage par empennelage. Position à plus de 20 m des piles du pont (conforme réglementation). Installation provisoire confirmée définitivement en 2015. Financement: Conseil Général de Vendée."
+    },
+    {
+      "syssi": "8500099",
+      "nom_patrimoine": "Bouée tribord aval Sud",
+      "nom_alternatif": "Panneau du duc d'Albe aval Sud (ancien nom)",
+
+      "position": {
+        "latitude": 46.891833,
+        "longitude": -2.15025,
+        "texte_source": "46°53,510' N — 002°09,015' W",
+        "systeme": "WGS84",
+        "precision": null
+      },
+
+      "caracteristiques_physiques": {
+        "nature_support": "Bouée",
+        "type_bouee": "Mobilis jet 2500",
+        "diametre_mm": null,
+        "hauteur_m": null,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "voyant": false,
+        "forme_voyant": null
+      },
+
+      "equipements": {
+        "bande_retro": false,
+        "reflecteur_radar": true,
+
+        "feu": {
+          "present": false,
+          "couleur": null,
+          "rythme": null,
+          "periode_s": null,
+          "portee_M": null,
+          "secteurs": null,
+          "texte_source": null
+        },
+
+        "aide_sonore": {
+          "present": false,
+          "type": null,
+          "rythme": null
+        },
+
+        "ais_aton": false,
+        "racon": {
+          "present": false,
+          "lettre_morse": null
+        }
+      },
+
+      "notes": "Bouée passive remplaçant un panneau signalé disparu le 25/05/2009 suite à un abordage. Ligne de mouillage: 20 m (calibre 30 mm). Corps-mort: 1100 kg avec ancrage par empennelage. Position à plus de 20 m des piles du pont (conforme réglementation). Installation provisoire confirmée définitivement en 2015. Financement: Conseil Général de Vendée. Avis favorable de la Yeu Continent Compagnie."
+    }
+  ],
+
+  "notes_extraction": {
+    "qualite_ocr": "bonne",
+    "difficultes": [
+      "Certains numéros de décision partiellement illisibles dans l'en-tête",
+      "Caractéristiques techniques détaillées des bouées Mobilis jet 2500 non spécifiées (diamètre exact, hauteur)"
+    ],
+    "ambiguites": [
+      "Absence de mention explicite sur la présence/absence de bandes rétroréfléchissantes",
+      "Type exact de marque du voyant non spécifié (mais bouées probablement sans voyant vu le caractère passif)"
+    ],
+    "total_aides_detectees": 2,
+    "commentaire_general": "Document administratif de prise en considération validant le remplacement définitif de deux panneaux par des bouées passives. Les positions anciennes des panneaux sont également mentionnées dans le document. Validation par le CEREMA avec recommandation de vérification après coups de vent. Document clair avec références aux Avis aux Navigateurs."
+  }
+}
+
