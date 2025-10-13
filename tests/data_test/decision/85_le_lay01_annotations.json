@@ -1,0 +1,318 @@
+{
+  "nom_fichier": "85_Le Lay01.pdf",
+  "zone_geographique": "Estuaire du Lay",
+  "departement": "85",
+  
+  "metadonnees_document": {
+    "type_document": "Arrêté préfectoral",
+    "numero_arrete": "08-DDE/SMR/",
+    "date_decision": "2008-07-21",
+    "autorite_emettrice": "Préfet de la Vendée - Thierry LATASTE",
+    "contexte": "Réorganisation du balisage de l'estuaire du Lay",
+    "decision_prealable": "Prise en considération du 23 octobre 2007"
+  },
+  
+  "informations_projet": {
+    "objectif": "Remplacer les perches en bois par 50 bouées modernes",
+    "financement": "Communes de l'Aiguillon-sur-Mer et de la Faute-sur-Mer",
+    "caracteristiques_bouees": {
+      "diametre_standard": "800 mm",
+      "equipement": "Bandes rétro-réfléchissantes + réflecteurs radars",
+      "espacement": "~250 m",
+      "systeme_coordonnees": "WGS 84",
+      "precision_position": "5 mètres"
+    }
+  },
+  
+  "modifications_aides_existantes": [
+    {
+      "aide": "Bouée du Lay",
+      "syssi_probable": "8500180",
+      "modification": "Réduction de portée de 5M à 3,3M",
+      "marque_type": "Cardinale Sud",
+      "position": "Embouchure de l'estuaire"
+    }
+  ],
+
+  "aides_supprimees": [
+      {
+        "type": "Perches en bois",
+        "quantite": "non précisée",
+        "raison": "Remplacement par bouées modernes",
+        "statut": "Déclassées en tant qu'Etablissement de Signalisation Maritime",
+        "texte_source": "suppression des perches en bois / les balises en bois restantes sont déclassées"
+      }
+    ],
+  
+  "aides_creees": [
+    {
+      "nom": "Grand Abois tribord",
+      "syssi_probable": "8500188",
+      "nature_support": "Bouée",
+      "diametre": "1200 mm",
+      "marque_type": "Latérale tribord",
+      "couleur_jour": "Rouge",
+      "position": {
+        "latitude": 46.262467,
+        "longitude": -1.279683,
+        "texte_source": "46°15,748 N 1°16,781 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      },
+      "notes": "Bouée de plus grand diamètre, forme porte avec bouées bâbord"
+    },
+    {
+      "nom": "Bouée n°0",
+      "syssi_probable": null,
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale (type non précisé dans tableau)",
+      "position": {
+        "latitude": 46.284513,
+        "longitude": -1.262750,
+        "texte_source": "46°17,081 N 1°15,765 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      }
+    },
+    {
+      "nom": "Bouée tribord n°1",
+      "syssi_probable": "8500187",
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale tribord",
+      "couleur_jour": "Rouge",
+      "position": {
+        "latitude": 46.286667,
+        "longitude": -1.261200,
+        "texte_source": "46°17,200 N 1°15,672 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      },
+      "notes": "Première bouée du chenal numéroté"
+    },
+    {
+      "nom": "Bouée bâbord n°2",
+      "syssi_probable": null,
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale bâbord",
+      "couleur_jour": "Vert",
+      "position": {
+        "latitude": 46.286983,
+        "longitude": -1.262600,
+        "texte_source": "46°17,219 N 1°15,756 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      }
+    },
+    {
+      "nom": "Bouée tribord n°3",
+      "syssi_probable": "8500189",
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale tribord",
+      "couleur_jour": "Rouge",
+      "position": {
+        "latitude": 46.289750,
+        "longitude": -1.262850,
+        "texte_source": "46°17,385 N 1°15,771 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      },
+      "notes": "Correspond probablement à 'Batture N°3' dans tableau initial"
+    },
+    {
+      "nom": "Bouée bâbord n°4",
+      "syssi_probable": null,
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale bâbord",
+      "couleur_jour": "Vert",
+      "position": {
+        "latitude": 46.289717,
+        "longitude": -1.264333,
+        "texte_source": "46°17,383 N 1°15,860 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      }
+    },
+    {
+      "nom": "Bouée tribord n°5",
+      "syssi_probable": "8500342",
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale tribord",
+      "couleur_jour": "Rouge",
+      "position": {
+        "latitude": 46.291433,
+        "longitude": -1.263633,
+        "texte_source": "46°17,486 N 1°15,818 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      },
+      "notes": "Correspond probablement à 'Batture N°5' (SYSSI 8500342)"
+    },
+    {
+      "nom": "Bouée bâbord n°6",
+      "syssi_probable": "8500344",
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale bâbord",
+      "couleur_jour": "Vert",
+      "position": {
+        "latitude": 46.291500,
+        "longitude": -1.265000,
+        "texte_source": "46°17,490 N 1°15,900 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      },
+      "notes": "Correspond probablement à 'Batture N°6' (SYSSI 8500344)"
+    },
+    {
+      "nom": "Bouée tribord n°7",
+      "syssi_probable": "8500343",
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale tribord",
+      "couleur_jour": "Rouge",
+      "position": {
+        "latitude": 46.293083,
+        "longitude": -1.265233,
+        "texte_source": "46°17,585 N 1°15,914 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      },
+      "notes": "Correspond probablement à 'Batture N°7' (SYSSI 8500343)"
+    },
+    {
+      "nom": "Bouée bâbord n°8",
+      "syssi_probable": null,
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale bâbord",
+      "couleur_jour": "Vert",
+      "position": {
+        "latitude": 46.293917,
+        "longitude": -1.267117,
+        "texte_source": "46°17,635 N 1°16,027 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      }
+    },
+    {
+      "nom": "Bouée tribord n°9",
+      "syssi_probable": "8500327",
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale tribord",
+      "couleur_jour": "Rouge",
+      "position": {
+        "latitude": 46.294317,
+        "longitude": -1.266667,
+        "texte_source": "46°17,659 N 1°16,000 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      },
+      "notes": "Correspond probablement à 'Batture N°9' (SYSSI 8500327)"
+    },
+    {
+      "nom": "Bouée bâbord n°10",
+      "syssi_probable": null,
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale bâbord",
+      "couleur_jour": "Vert",
+      "position": {
+        "latitude": 46.295833,
+        "longitude": -1.269983,
+        "texte_source": "46°17,750 N 1°16,199 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      }
+    },
+    {
+      "nom": "Bouée tribord n°11",
+      "syssi_probable": "8500245",
+      "nature_support": "Bouée",
+      "diametre": "800 mm",
+      "marque_type": "Latérale tribord",
+      "couleur_jour": "Rouge",
+      "position": {
+        "latitude": 46.296050,
+        "longitude": -1.269300,
+        "texte_source": "46°17,763 N 1°16,158 W"
+      },
+      "equipements": {
+        "bande_retro": true,
+        "reflecteur_radar": true,
+        "voyant": false,
+        "feu": null
+      },
+      "notes": "Correspond probablement à 'Batture N°11' (SYSSI 8500245)"
+    }
+  ],
+  
+  "notes_extraction": {
+    "difficultes": [
+      "Numérotation des bouées ne correspond pas forcément aux N° SYSSI",
+      "Tableau OCR incomplet (dernières lignes tronquées)",
+      "Qualité OCR moyenne (erreurs de reconnaissance)",
+      "Pas de N° SYSSI directement dans le document"
+    ],
+    "a_verifier": [
+      "Correspondance numéros bouées <-> SYSSI via tableau initial",
+      "Couleurs exactes (rouge=tribord, vert=bâbord par convention)",
+      "Positions des 40+ bouées restantes non extraites ici"
+    ],
+    "total_aides": "~50 bouées (seules les 12 premières annotées en détail)"
+  }
+}
