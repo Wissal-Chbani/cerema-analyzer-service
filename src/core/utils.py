@@ -17,5 +17,6 @@ Auteur : Wissal Chbani
 Date : Octobre 2025
 """
 
+import pandas as pd
 import re
 import unicodedata
