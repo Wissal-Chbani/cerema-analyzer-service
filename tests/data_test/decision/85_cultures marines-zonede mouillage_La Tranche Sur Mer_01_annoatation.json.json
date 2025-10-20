@@ -1,0 +1,899 @@
+{
+  "nom_fichier": "85_cultures marines-zonede mouillage_La Tranche Sur Mer_01[1].pdf",
+  "zone_geographique": "Zone de cultures marines de la pointe du Rocher, La Tranche-sur-Mer",
+  "departement": "85",
+  
+  "metadonnees_document": {
+    "type_document": "DM",
+    "numero_decision": "SM4 N° 08652",
+    "date_decision": "2011-02-28",
+    "autorite_emettrice": "Ministre de l'écologie, du développement durable, des transports et du logement (par délégation : directeur des Affaires maritimes)",
+    "contexte": "Décision ministérielle créant et modifiant la signalisation maritime de la zone collective de cultures marines à la pointe du Rocher pour résoudre les conflits d'usage"
+  },
+  
+  "mesures_principales": [
+    {
+      "titre": "1. Création d'un passage traversier entre les exploitations pour permettre l'accès à l'estran",
+      "type_mouillage": "Mouillage saisonnier",
+      "objectif": "Permettre l'accès à l'estran et à 3 zones de mouillage organisées",
+      "description": "Balisage latéral délimitant le chenal d'accès",
+      "nombre_total_bouees": 8,
+      "aides": [
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée latérale bâbord A - Chenal traversier",
+          "nom_alternatif": "Bouée rouge bâbord extrémité Sud chenal",
+          
+          "position": {
+            "latitude": 46.337167,
+            "longitude": -1.389833,
+            "texte_source": "46°20'207N 1°23'346W",
+            "systeme": "WGS84",
+            "precision": "Lambert 2 : 313322, 155416"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": "cylindrique",
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Latérale bâbord",
+            "couleur_jour": "Rouge",
+            "voyant": true,
+            "forme_voyant": "Cylindre"
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive latérale bâbord, diamètre 800mm"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée latérale bâbord B - Chenal traversier",
+          "nom_alternatif": "Bouée rouge bâbord chenal",
+          
+          "position": {
+            "latitude": 46.334167,
+            "longitude": -1.389867,
+            "texte_source": "46°20'016N 1°23'392W",
+            "systeme": "WGS84",
+            "precision": "Lambert 2 : 313250, 155067"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": "cylindrique",
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Latérale bâbord",
+            "couleur_jour": "Rouge",
+            "voyant": true,
+            "forme_voyant": "Cylindre"
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive latérale bâbord, diamètre 800mm"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée latérale bâbord C - Chenal traversier",
+          "nom_alternatif": "Bouée rouge bâbord chenal",
+          
+          "position": {
+            "latitude": 46.330667,
+            "longitude": -1.391917,
+            "texte_source": "46°19'840N 1°23'515W",
+            "systeme": "WGS84",
+            "precision": "Lambert 2 : 313076, 154749"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": "cylindrique",
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Latérale bâbord",
+            "couleur_jour": "Rouge",
+            "voyant": true,
+            "forme_voyant": "Cylindre"
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive latérale bâbord, diamètre 800mm"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée latérale bâbord D - Chenal traversier",
+          "nom_alternatif": "Bouée rouge bâbord chenal",
+          
+          "position": {
+            "latitude": 46.328000,
+            "longitude": -1.393833,
+            "texte_source": "46°19'660N 1°23'630W",
+            "systeme": "WGS84",
+            "precision": "Lambert 2 : 312914, 154435"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": "cylindrique",
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Latérale bâbord",
+            "couleur_jour": "Rouge",
+            "voyant": true,
+            "forme_voyant": "Cylindre"
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive latérale bâbord, diamètre 800mm"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée latérale tribord E - Chenal traversier",
+          "nom_alternatif": "Bouée verte tribord extrémité Sud chenal",
+          
+          "position": {
+            "latitude": 46.337583,
+            "longitude": -1.384233,
+            "texte_source": "46°20'253N 1°23'034W",
+            "systeme": "WGS84",
+            "precision": "Lambert 2 : 313728, 155480"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": "conique",
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Latérale tribord",
+            "couleur_jour": "Vert",
+            "voyant": true,
+            "forme_voyant": "Cône"
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive latérale tribord, diamètre 800mm"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée latérale tribord F - Chenal traversier",
+          "nom_alternatif": "Bouée verte tribord chenal",
+          
+          "position": {
+            "latitude": 46.333333,
+            "longitude": -1.386333,
+            "texte_source": "46°20'000N 1°23'178W",
+            "systeme": "WGS84",
+            "precision": "Lambert 2 : 313522, 155024"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": "conique",
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Latérale tribord",
+            "couleur_jour": "Vert",
+            "voyant": true,
+            "forme_voyant": "Cône"
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive latérale tribord, diamètre 800mm"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée latérale tribord G - Chenal traversier",
+          "nom_alternatif": "Bouée verte tribord chenal",
+          
+          "position": {
+            "latitude": 46.330667,
+            "longitude": -1.385133,
+            "texte_source": "46°19'840N 1°23'108W",
+            "systeme": "WGS84",
+            "precision": "Lambert 2 : 313598, 154722"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": "conique",
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Latérale tribord",
+            "couleur_jour": "Vert",
+            "voyant": true,
+            "forme_voyant": "Cône"
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive latérale tribord, diamètre 800mm"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée latérale tribord H - Chenal traversier",
+          "nom_alternatif": "Bouée verte tribord chenal",
+          
+          "position": {
+            "latitude": 46.328000,
+            "longitude": -1.383000,
+            "texte_source": "46°19'671N 1°22'998W",
+            "systeme": "WGS84",
+            "precision": "Lambert 2 : 313715, 154405"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": "conique",
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Latérale tribord",
+            "couleur_jour": "Vert",
+            "voyant": true,
+            "forme_voyant": "Cône"
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive latérale tribord, diamètre 800mm"
+        }
+      ]
+    },
+    {
+      "titre": "2. Densification du balisage de contour dans le Sud de la zone collective pour accroître sa perception",
+      "type_mouillage": "Mouillage saisonnier",
+      "objectif": "Densifier le balisage de contour de la zone de cultures marines",
+      "description": "Ajout de 2 bouées de marques spéciales dans le prolongement Ouest des bouées existantes G2 et G3",
+      "nombre_total_bouees": 2,
+      "aides": [
+        {
+          "syssi": "8500225",
+          "nom_patrimoine": "Bouée de marque spéciale - Densification Ouest de G2",
+          "nom_alternatif": "Bouée jaune Ouest de G2 des zones de pêche concédées",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "dans l'Ouest de la bouée G2 des zones de pêche concédées (Aladin n°8500225)",
+            "systeme": null,
+            "precision": null
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive de marque spéciale, diamètre 800mm, mouillage saisonnier"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée de marque spéciale - Densification Ouest de G3",
+          "nom_alternatif": "Bouée jaune Ouest de G3",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "dans l'Ouest de la position actuelle de la bouée G3",
+            "systeme": null,
+            "precision": null
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive de marque spéciale, diamètre 800mm, mouillage saisonnier"
+        }
+      ]
+    },
+    {
+      "titre": "3. Déplacement des bouées G1 et G3 des zones de pêche concédées",
+      "type_mouillage": "Permanent",
+      "objectif": "Augmenter la distance de sécurité entre le ligne de balisage et les première rangées de bouchots",
+      "description": "Modification de position pour améliorer les conditions de manœuvre des usagers (plaisanciers, véliplanchistes, utilisateurs VNM)",
+      "nombre_total_bouees": 2,
+      "aides": [
+        {
+          "syssi": "8500224",
+          "nom_patrimoine": "Bouée G1 - Position modifiée",
+          "nom_alternatif": "G1 des zones de pêche concédées",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "Déplacement de 180 mètres vers l'ouest",
+            "systeme": "WGS84",
+            "precision": "Position nouvelle déterminée par rapport aux documents nautiques SHOM"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Déplacement de 180 mètres vers l'ouest. Bouée existante repositionnée. Positionné d'après documents SHOM"
+        },
+        {
+          "syssi": "8500226",
+          "nom_patrimoine": "Bouée G3 - Position modifiée",
+          "nom_alternatif": "G3 des zones de pêche concédées",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "Déplacement de 450 mètres vers le Sud",
+            "systeme": "WGS84",
+            "precision": "Position nouvelle déterminée par rapport aux documents nautiques SHOM"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 800,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Déplacement de 450 mètres vers le Sud. Bouée existante repositionnée. Positionné d'après documents SHOM"
+        }
+      ]
+    },
+    {
+      "titre": "4. Création d'un balisage de contour dans le Nord et l'Ouest de la zone collective",
+      "type_mouillage": "Mouillage saisonnier",
+      "objectif": "Marquer le périmètre de la zone de cultures marines, avec effet entonnoir vers le chenal traversier",
+      "description": "5 bouées de marque spéciale de plus petite dimension (600mm vs 800mm côté mer) pour différencier la perception",
+      "nombre_total_bouees": 5,
+      "aides": [
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée de marque spéciale contour Nord-Ouest 1",
+          "nom_alternatif": "Bouée contour côté terre - 1",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "Balisage de contour dans le Nord et l'Ouest de la zone collective",
+            "systeme": null,
+            "precision": "Espacements d'environ 600m"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 600,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive de marque spéciale, diamètre 600mm, mouillage saisonnier"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée de marque spéciale contour Nord-Ouest 2",
+          "nom_alternatif": "Bouée contour côté terre - 2",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "Balisage de contour dans le Nord et l'Ouest de la zone collective",
+            "systeme": null,
+            "precision": "Espacements d'environ 600m"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 600,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive de marque spéciale, diamètre 600mm, mouillage saisonnier"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée de marque spéciale contour Nord-Ouest 3",
+          "nom_alternatif": "Bouée contour côté terre - 3",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "Balisage de contour dans le Nord et l'Ouest de la zone collective",
+            "systeme": null,
+            "precision": "Espacements d'environ 600m"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 600,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive de marque spéciale, diamètre 600mm, mouillage saisonnier"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée de marque spéciale contour Nord-Ouest 4",
+          "nom_alternatif": "Bouée contour côté terre - 4",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "Balisage de contour dans le Nord et l'Ouest de la zone collective",
+            "systeme": null,
+            "precision": "Espacements d'environ 600m"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 600,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false, "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive de marque spéciale, diamètre 600mm, mouillage saisonnier"
+        },
+        {
+          "syssi": null,
+          "nom_patrimoine": "Bouée de marque spéciale contour Nord-Ouest 5",
+          "nom_alternatif": "Bouée contour côté terre - 5 (effet entonnoir)",
+          
+          "position": {
+            "latitude": null,
+            "longitude": null,
+            "texte_source": "Bouée supplémentaire à l'Est du chenal pour créer un effet entonnoir vers le chenal",
+            "systeme": null,
+            "precision": "Espacements d'environ 600m"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Bouée",
+            "type_bouee": null,
+            "diametre_mm": 600,
+            "hauteur_m": null,
+            "marque_type": "Marque spéciale",
+            "couleur_jour": "Jaune",
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            "feu": {
+              "present": false,
+              "couleur": null,
+              "rythme": null,
+              "periode_s": null,
+              "portee_M": null,
+              "secteurs": null,
+              "texte_source": "bouée passive"
+            },
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Bouée passive de marque spéciale, diamètre 600mm, mouillage saisonnier. Placée à l'Est du chenal pour créer un effet entonnoir"
+        }
+      ]
+    }
+  ],
+  
+  "notes_extraction": {
+    "qualite_ocr": "bonne",
+    "difficultes": [
+      "Positions GPS partielles - certaines bouées n'ont pas de coordonnées précises dans le document"
+    ],
+    "ambiguites": [
+      "Positions exactes des 5 bouées contour Nord-Ouest non listées dans le tableau",
+      "Positions de G1 et G3 après déplacement à calculer par géodésie",
+      "Type de bouée (conique/cylindrique/sphérique) non spécifié pour bouées de marque spéciale"
+    ],
+    "total_aides_detectees": 17
+  }
+}
