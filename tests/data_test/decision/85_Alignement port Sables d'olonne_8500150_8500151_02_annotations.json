@@ -1,0 +1,304 @@
+{
+  "nom_fichier": "85_Alignement port Sables d'olonne_8500150_8500151_02.pdf",
+  "zone_geographique": "Port des Sables d'Olonne et ses abords",
+  "departement": "85",
+  
+  "metadonnees_document": {
+    "type_document": "Décision ministérielle (non numérotée explicitement)",
+    "date_decision": "1997-11-28",
+    "date_ocr_approximative": "28 novembre 1997 (déduit de '28 10V, 1997' avec erreur OCR)",
+    "autorite_emettrice": "Ministère de l'Équipement, des Transports et du Logement",
+    "signataire": "Christian SERRADJI, Directeur des Affaires Maritimes et des Gens de Mer",
+    "destinataire": "Préfet du département de la Vendée (Direction Départementale de l'Équipement)",
+    "service_instructeur": "Direction des Affaires Maritimes et des Gens de Mer - Sous-Direction de la Sécurité Maritime - Bureau Phares et Balises",
+    "reference_affaire": "Mme M-C GOUPIL, tél. 01 44 49 86 85, réf. MCG/SG/SI)/h@sSM4",
+    "references_dossier": [
+      "Rapport DDE/SM/PHARBAL du 28 juillet 1997",
+      "Rapport DDE/SM/PHARBAL du 31 juillet 1997",
+      "Rapport DDE/SM/PHARBAL du 1er août 1997"
+    ],
+    "contexte": "Modification de la signalisation maritime du port et ses abords suite aux demandes des usagers et pour des raisons de contraintes financières"
+  },
+  
+  "contexte_projet": {
+    "motivations": [
+      "Demande exprimée par les usagers pour améliorer la visibilité",
+      "Contraintes financières liées au renouvellement et à l'entretien des marques",
+      "Dangers constitués par certaines marques obsolètes"
+    ],
+    "validation": {
+      "commission_nautique_locale": {
+        "date": "1997-03-25",
+        "avis": "Favorable à l'ensemble des dispositions"
+      },
+      "commission_permanente_des_phares": {
+        "date": "1997-10-16",
+        "avis": "Favorable"
+      }
+    },
+    "periode_essai": {
+      "debut": "1993-09",
+      "dispositif_teste": "Changement couleur feux alignement 033° (rouge → blanc)",
+      "retour_usagers": "Très satisfaits, nette amélioration de la portée lumineuse jour et nuit"
+    }
+  },
+  
+  "modifications_projet": {
+    "modifications_existantes": [
+      {
+        "aide": "Feu antérieur de l'Estacade - Alignement au 033°",
+        "syssi": "8500150",
+        "esm_ancien": "1018",
+        "type_modification": "Changement de couleur du feu (pérennisation après essai)",
+        "couleur_avant": "Rouge",
+        "couleur_apres": "Blanc",
+        "statut": "Modification définitive après essai depuis septembre 1993",
+        "nature_support": "Feu",
+        "position_descriptive": "Estacade du port des Sables d'Olonne",
+        "fonction": "Feu antérieur d'alignement d'accès au port",
+        "caracteristiques_physiques": {
+          "marque_type": "Feu d'alignement antérieur",
+          "alignement_degres": 33,
+          "orientation_complete": "033°"
+        },
+        "equipements": {
+          "feu": {
+            "present": true,
+            "couleur_avant": "rouge",
+            "couleur_apres": "blanc",
+            "rythme": "Iso",
+            "periode_s": 4.0,
+            "texte_source": "feux rouges dotés du rythme isophase (4 s)",
+            "fonctionnement": "Continu jour et nuit",
+            "amelioration": "Nette amélioration de la portée lumineuse aussi bien de jour que de nuit"
+          }
+        },
+        "justification": "Les usagers éprouvaient beaucoup de difficultés à repérer de jour, par mauvais temps ou brume, les deux feux rouges. Le changement en blanc a apporté une nette amélioration.",
+        "notes": "Essai réussi depuis septembre 1993, pérennisé par cette décision"
+      },
+      {
+        "aide": "Phare de la Potence - Feu postérieur alignement au 033°",
+        "syssi": "8500151",
+        "esm_ancien": "1019",
+        "type_modification": "Changement de couleur du feu (pérennisation après essai)",
+        "couleur_avant": "Rouge",
+        "couleur_apres": "Blanc",
+        "statut": "Modification définitive après essai depuis septembre 1993",
+        "nature_support": "Phare",
+        "position_descriptive": "La Potence, port des Sables d'Olonne",
+        "fonction": "Feu postérieur d'alignement d'accès au port",
+        "caracteristiques_physiques": {
+          "marque_type": "Feu d'alignement postérieur",
+          "alignement_degres": 33,
+          "orientation_complete": "033°"
+        },
+        "equipements": {
+          "feu": {
+            "present": true,
+            "couleur_avant": "rouge",
+            "couleur_apres": "blanc",
+            "rythme": "Iso",
+            "periode_s": 4.0,
+            "texte_source": "feux rouges dotés du rythme isophase (4 s)",
+            "fonctionnement": "Continu jour et nuit",
+            "amelioration": "Nette amélioration de la portée lumineuse aussi bien de jour que de nuit"
+          }
+        },
+        "justification": "Même raison que le feu antérieur : amélioration de la visibilité demandée par les usagers",
+        "notes": "Forme avec le feu 8500150 un alignement d'accès au port à 033°"
+      }
+    ],
+    
+    "suppressions": [
+      {
+        "aide": "1er feu d'accès au slipway",
+        "esm_ancien": "1017/1",
+        "syssi_probable": null,
+        "type_modification": "Suppression définitive",
+        "raison": "Feux souvent éteints suite aux chocs occasionnés par les bateaux sortant du chantier. Aucune gêne à supprimer (endroit éclairé du port).",
+        "nature_support": "Feu",
+        "position_descriptive": "Duc d'Albe n°1, avant-port, accès aux bers des chantiers de construction",
+        "equipements": {
+          "feu": {
+            "present": true,
+            "couleur": "bleu",
+            "rythme": "Fl",
+            "periode_s": 4.0,
+            "texte_source": "feu à éclats (4 s) bleu"
+          }
+        },
+        "statut_avant_suppression": "Dysfonctionnel (souvent éteint)",
+        "validation_usagers": "Les usagers ont admis qu'il n'y avait aucune gêne à supprimer ces deux marques"
+      },
+      {
+        "aide": "2ème feu d'accès au slipway",
+        "esm_ancien": "1017/2",
+        "syssi_probable": null,
+        "type_modification": "Suppression définitive",
+        "raison": "Même que 1017/1 - feux souvent éteints, endroit déjà éclairé",
+        "nature_support": "Feu",
+        "position_descriptive": "Duc d'Albe n°2, avant-port, accès aux bers des chantiers de construction",
+        "equipements": {
+          "feu": {
+            "present": true,
+            "couleur": "bleu",
+            "rythme": "Fl",
+            "periode_s": 4.0,
+            "texte_source": "feu à éclats (4 s) bleu"
+          }
+        },
+        "statut_avant_suppression": "Dysfonctionnel (souvent éteint)"
+      },
+      {
+        "aide": "Bouée de l'épave du Chaddi",
+        "esm_ancien": "1020",
+        "syssi_probable": null,
+        "type_modification": "Suppression définitive",
+        "raison": "Épave ne présente plus aucun danger pour la navigation. Bouée non lumineuse constituait elle-même un danger sur la route d'accès au port. Chambre de Commerce et d'Industrie ne souhaite pas renouveler la convention d'entretien.",
+        "nature_support": "Bouée",
+        "historique": {
+          "date_mise_en_place": "1923-05-08",
+          "contexte": "Balisage de l'épave du vapeur espagnol 'Chaddi' coulé au large des Sables d'Olonne durant la guerre 1914-1918",
+          "maintien_jusque": "1997 à la demande des pêcheurs",
+          "date_suppression_effective": "1997-07-23"
+        },
+        "position_descriptive": "Au large des Sables d'Olonne, sur la route d'accès au port",
+        "caracteristiques_physiques": {
+          "marque_type": "Cardinale Ouest",
+          "couleur_jour": "Jaune et noir (convention cardinale ouest)"
+        },
+        "equipements": {
+          "feu": {
+            "present": false
+          },
+          "aide_sonore": {
+            "present": true,
+            "type": "sifflet"
+          }
+        },
+        "justification_suppression": "Épave obsolète + bouée non lumineuse devenue danger + fin de convention d'entretien",
+        "notes": "Bouée historique de 74 ans d'existence (1923-1997). Relevée le 23 juillet 1997, avant la décision formelle."
+      }
+    ]
+  },
+  
+  "systeme_alignement": {
+    "description": "Alignement d'accès au port des Sables d'Olonne",
+    "orientation": "033°",
+    "composition": [
+      {
+        "role": "Feu antérieur",
+        "aide": "Feu de l'Estacade",
+        "syssi": "8500150",
+        "position_relative": "Plus proche de la mer"
+      },
+      {
+        "role": "Feu postérieur",
+        "aide": "Phare de la Potence",
+        "syssi": "8500151",
+        "position_relative": "Plus éloigné de la mer, sur la côte"
+      }
+    ],
+    "principe_navigation": "Les navires s'alignent sur les deux feux pour suivre l'axe sûr d'entrée au port à 033°",
+    "amelioration_apportee": "Passage de la couleur rouge à blanc pour meilleure visibilité de jour et par mauvais temps"
+  },
+  
+  "aides_concernees_total": [
+    "8500150",
+    "8500151"
+  ],
+  
+  "aides_supprimees": [
+    {
+      "esm": "1017/1",
+      "nom": "1er feu d'accès au slipway"
+    },
+    {
+      "esm": "1017/2",
+      "nom": "2ème feu d'accès au slipway"
+    },
+    {
+      "esm": "1020",
+      "nom": "Bouée de l'épave du Chaddi"
+    }
+  ],
+  
+  "observations_techniques": {
+    "typologie_document": "Décision de pérennisation après période d'essai + suppressions",
+    "demarche_qualite": [
+      "Période d'essai de 4 ans (1993-1997) avant décision définitive",
+      "Consultation des usagers",
+      "Double validation (commission nautique locale + commission permanente des phares)"
+    ],
+    "aspects_financiers": "Motivation de suppression liée aux contraintes financières d'entretien et de renouvellement",
+    "aspects_securite": [
+      "Amélioration visibilité alignement principal (033°)",
+      "Suppression de marques dysfonctionnelles ou dangereuses"
+    ]
+  },
+  
+  "vocabulaire_technique": {
+    "isophase": "Rythme de feu où les durées d'éclat et d'obscurité sont égales",
+    "alignement": "Système de deux feux (antérieur et postérieur) permettant de suivre un axe de navigation sûr",
+    "slipway": "Plan incliné permettant la mise à l'eau ou le halage des navires",
+    "ducs_d_albe": "Pieux ou groupes de pieux enfoncés dans le fond pour l'amarrage ou la protection",
+    "bers": "Supports sur lesquels reposent les navires en construction ou en réparation",
+    "cardinale_ouest": "Marque indiquant que les eaux navigables se trouvent à l'ouest de la marque",
+    "esm": "Établissement de Signalisation Maritime (ancien système de numérotation)"
+  },
+  
+  "conversion_systemes_reference": {
+    "ancien_systeme_esm": {
+      "1018": "8500150",
+      "1019": "8500151",
+      "1017/1": "Non attribué (supprimé)",
+      "1017/2": "Non attribué (supprimé)",
+      "1020": "Non attribué (supprimé)"
+    },
+    "note": "Le document utilise l'ancien système de numérotation ESM. Correspondance avec SYSSI déduite du tableau initial du projet."
+  },
+  
+  "effet_juridique": {
+    "entree_vigueur": "Après diffusion réglementaire de l'information nautique",
+    "diffusion_requise": [
+      "Information nautique réglementaire",
+      "Mise à jour des cartes marines (implicite)"
+    ],
+    "caractere_definitif": true
+  },
+  
+  "copies_transmises": [
+    "Directeur Départemental de l'Équipement de la Vendée",
+    "STNMTE (Service Technique de la Navigation Maritime et des Transmissions Électroniques)",
+    "SM (Service Maritime)",
+    "Chrono SM4",
+    "Chrono SM4/AN (en 1)",
+    "SM4/AN (2 exemplaires)",
+    "SM4/ESM"
+  ],
+  
+  "notes_extraction": {
+    "qualite_ocr": "Moyenne",
+    "difficultes": [
+      "Date mal reconnue: '28 10V, 1997' au lieu de '28 NOV, 1997' (novembre)",
+      "Caractères spéciaux mal interprétés (apostrophes, accents)",
+      "Espaces irréguliers dans le texte",
+      "Référence email partiellement illisible: 'réLMCG/SG/SI)/h@sSM4'",
+      "Pas de tableau structuré (texte narratif uniquement)"
+    ],
+    "ambiguites": [
+      "Date exacte à confirmer (probablement 28 novembre 1997)",
+      "SYSSI des aides supprimées non mentionnés (probablement jamais attribués ou archivés)",
+      "Positions GPS absentes (document ancien, description textuelle uniquement)"
+    ],
+    "particularites": [
+      "Document historique (1997) utilisant l'ancien système ESM",
+      "Bouée de l'épave du Chaddi : 74 ans d'existence (1923-1997)",
+      "Feux bleus (rare dans la signalisation maritime, généralement réservés aux zones portuaires)",
+      "Période d'essai de 4 ans avant décision définitive (bonne pratique)"
+    ],
+    "total_aides_modifiees": 2,
+    "total_aides_supprimees": 3,
+    "type_dominant": "Modifications de caractéristiques lumineuses + suppressions de marques obsolètes"
+  }
+}

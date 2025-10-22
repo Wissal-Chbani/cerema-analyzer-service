@@ -6,7 +6,7 @@
   "metadonnees_document": {
     "type_document": "Arrêté préfectoral",
     "numero_arrete": "08-DDE/SMR/",
-    "date_decision": "2008-07-21",
+    "date_decision": "2008-05-21",
     "autorite_emettrice": "Préfet de la Vendée - Thierry LATASTE",
     "contexte": "Réorganisation du balisage de l'estuaire du Lay",
     "decision_prealable": "Prise en considération du 23 octobre 2007"
@@ -66,11 +66,12 @@
       "notes": "Bouée de plus grand diamètre, forme porte avec bouées bâbord"
     },
     {
-      "nom": "Bouée n°0",
+      "nom": "Bouée n°2",
       "syssi_probable": null,
       "nature_support": "Bouée",
       "diametre": "800 mm",
-      "marque_type": "Latérale (type non précisé dans tableau)",
+      "marque_type": "Latérale babord",
+      "couleur_jour": "Vert",
       "position": {
         "latitude": 46.284513,
         "longitude": -1.262750,
@@ -100,11 +101,10 @@
         "reflecteur_radar": true,
         "voyant": false,
         "feu": null
-      },
-      "notes": "Première bouée du chenal numéroté"
+      }
     },
     {
-      "nom": "Bouée bâbord n°2",
+      "nom": "Bouée bâbord n°4",
       "syssi_probable": null,
       "nature_support": "Bouée",
       "diametre": "800 mm",
@@ -132,7 +132,7 @@
       "position": {
         "latitude": 46.289750,
         "longitude": -1.262850,
-        "texte_source": "46°17,385 N 1°15,771 W"
+        "texte_source": "46°17,365 N 1°15,771 W"
       },
       "equipements": {
         "bande_retro": true,
@@ -143,7 +143,7 @@
       "notes": "Correspond probablement à 'Batture N°3' dans tableau initial"
     },
     {
-      "nom": "Bouée bâbord n°4",
+      "nom": "Bouée bâbord n°6",
       "syssi_probable": null,
       "nature_support": "Bouée",
       "diametre": "800 mm",
@@ -182,7 +182,7 @@
       "notes": "Correspond probablement à 'Batture N°5' (SYSSI 8500342)"
     },
     {
-      "nom": "Bouée bâbord n°6",
+      "nom": "Bouée bâbord n°8",
       "syssi_probable": "8500344",
       "nature_support": "Bouée",
       "diametre": "800 mm",
@@ -222,7 +222,7 @@
       "notes": "Correspond probablement à 'Batture N°7' (SYSSI 8500343)"
     },
     {
-      "nom": "Bouée bâbord n°8",
+      "nom": "Bouée bâbord n°10",
       "syssi_probable": null,
       "nature_support": "Bouée",
       "diametre": "800 mm",
@@ -261,7 +261,7 @@
       "notes": "Correspond probablement à 'Batture N°9' (SYSSI 8500327)"
     },
     {
-      "nom": "Bouée bâbord n°10",
+      "nom": "Bouée bâbord n°12",
       "syssi_probable": null,
       "nature_support": "Bouée",
       "diametre": "800 mm",
@@ -308,11 +308,7 @@
       "Qualité OCR moyenne (erreurs de reconnaissance)",
       "Pas de N° SYSSI directement dans le document"
     ],
-    "a_verifier": [
-      "Correspondance numéros bouées <-> SYSSI via tableau initial",
-      "Couleurs exactes (rouge=tribord, vert=bâbord par convention)",
-      "Positions des 40+ bouées restantes non extraites ici"
-    ],
-    "total_aides": "~50 bouées (seules les 12 premières annotées en détail)"
+    "total_aides": "~50 bouées (seules les 12 premières annotées en détail)",
+    "reste_aides": "Voir tableau sur le document source pour les autres bouées"
   }
 }

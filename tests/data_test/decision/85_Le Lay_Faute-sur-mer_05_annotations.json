@@ -1,0 +1,478 @@
+{
+  "nom_fichier": "85_Le Lay_Faute-sur-mer_05.pdf",
+  "zone_geographique": "Estuaire du Lay, ports de La Faute-sur-Mer et L'Aiguillon-sur-Mer",
+  "departement": "85",
+  
+  "metadonnees_document": {
+    "type_document": "DM",
+    "numero_decision": "SM4 N° DEP2018-",
+    "date_decision": "2018-03-19",
+    "autorite_emettrice": "Ministère de la Transition Écologique et Solidaire",
+    "signataire": "Vincent DENAMUR, Sous-directeur de la sécurité maritime (par délégation)",
+    "destinataire": "Directeur inter-régional de la mer Nord-Atlantique Manche-Ouest",
+    "service_instructeur": "Direction Générale des Infrastructures, des Transports et de la Mer - Bureau des Phares et Balises (SM4)",
+    "reference_affaire": "Jean-Luc Fontan, jean-luc.fontan@developpement-durable.gouv.fr, 01 40 81 62 86",
+    "contexte": "Régularisation et modification du balisage suite aux déplacements de bouées effectués en avril 2017 pour suivre l'évolution des fonds (avancée des bancs des Battures et des Jaux)"
+  },
+  
+  "contexte_projet": {
+    "situation_initiale": {
+      "nombre_aides": "58 bouées + 1 balise",
+      "probleme_constate": "Impossibilité de suivre le chenal au niveau de la pointe d'Arcay (hiver 2017)",
+      "cause": "Avancée des bancs des Battures et des Jaux",
+      "action_urgente": "Rétablissement du chenal en avril 2017 avec déplacement de 6 bouées dont 3 nouvelles ajoutées par le port de l'Aiguillon"
+    },
+    "objectifs_decision": [
+      "Régulariser le dispositif existant",
+      "Officialiser les 3 bouées ajoutées par le port de l'Aiguillon",
+      "Officialiser le nom de ces bouées",
+      "Modifier la position de 3 autres bouées pour suivre l'évolution des fonds",
+      "Renommer la bouée 'Battures n°7' en 'Battures n°11'",
+      "Déplacer la bouée du Lay d'environ 150m vers le Sud-Sud-Ouest"
+    ],
+    "validation": {
+      "experte_nautique_cerema": "Avis favorable le 21 avril 2017 (avec attention sur la largeur du chenal navigable)",
+      "commission_des_phares": "Avis favorable avec observations sur les risques de rétrécissement du chenal",
+      "consultation_usagers": "Non nécessaire (retours positifs déjà recueillis)"
+    },
+    "innovation_procedure": {
+      "principe": "Ajustement de chenal",
+      "description": "Permet de modifier le dispositif en fonction de l'évolution de la bathymétrie, à nombre constant de bouées, sans consultation systématique de la commission des phares",
+      "processus": "Présentation en commission nautique locale d'une bathymétrie récente + chenal ajusté → Avis favorable → Adaptation + Information nautique → Information a posteriori de la commission des phares"
+    }
+  },
+  
+  "financement": {
+    "responsabilite_ports": [
+      "Entretien de la majorité des bouées à la charge des ports de La Faute-sur-Mer et L'Aiguillon-sur-Mer"
+    ],
+    "responsabilite_subdivision_la_rochelle": [
+      "Bouée du Lay (8500180)",
+      "Bouée Grand Abois (8500188)",
+      "Bouées Battures n°1 (8500187)",
+      "Bouées Battures n°3 (8500189)"
+    ],
+    "recommandation_bureau_sm4": "Uniformiser les dispositions en confiant l'ensemble du chenal aux collectivités (sauf peut-être la bouée du Lay qui marque l'engainement)"
+  },
+  
+  "modifications_projet": {
+    "modifications_existantes": [
+      {
+        "aide": "Bouée du Lay",
+        "syssi": "8500180",
+        "type_modification": "Déplacement de position",
+        "deplacement": "Environ 150m vers le Sud-Sud-Ouest",
+        "position_avant": {
+          "latitude": 46.262467,
+          "longitude": -1.279733,
+          "texte_source": "46°15,748 N 1°16,784 W"
+        },
+        "position_apres": {
+          "latitude": 46.261167,
+          "longitude": -1.280117,
+          "texte_source": "46°15,670 N 1°16,807 W"
+        },
+        "nature_support": "Bouée",
+        "marque_type": "Cardinale Sud",
+        "financement": "Subdivision de La Rochelle",
+        "notes": "Marque l'engainement de l'estuaire"
+      },
+      {
+        "aide": "Bouée Battures n°7 → renommée Battures n°11",
+        "syssi": "8500245",
+        "type_modification": "Changement de nom",
+        "nom_avant": "Battures n°7",
+        "nom_apres": "Battures n°11",
+        "position": {
+          "latitude": 46.296050,
+          "longitude": -1.269283,
+          "texte_source": "46°17,763 N 1°16,157 W"
+        },
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        },
+        "notes": "Position inchangée, seul le nom a été modifié"
+      }
+    ],
+    
+    "regularisations_bouees_ajoutees": [
+      {
+        "aide": "Bouée n°1 pd Bouée",
+        "syssi_probable": null,
+        "statut": "Ajoutée par le port de l'Aiguillon, maintenant officialisée",
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale (type à déterminer selon contexte)",
+        "position_proposee": {
+          "latitude": 46.291233,
+          "longitude": -1.264117,
+          "texte_source": "46°17,474 N 1°15,847 W"
+        },
+        "observation": "Position dans le tableau annexe",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      },
+      {
+        "aide": "Bouée n°5 pd Bouée",
+        "syssi_probable": null,
+        "statut": "Ajoutée par le port de l'Aiguillon, maintenant officialisée",
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale (type à déterminer selon contexte)",
+        "position_proposee": {
+          "latitude": 46.293333,
+          "longitude": -1.265950,
+          "texte_source": "46°17,600 N 1°15,957 W"
+        },
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      },
+      {
+        "aide": "Bouée n°7 pd Bouée",
+        "syssi_probable": null,
+        "statut": "Ajoutée par le port de l'Aiguillon, maintenant officialisée",
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale (type à déterminer selon contexte)",
+        "position_proposee": {
+          "latitude": 46.294783,
+          "longitude": -1.267067,
+          "texte_source": "46°17,687 N 1°16,024 W"
+        },
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      }
+    ],
+    
+    "modifications_position_suivi_fonds": [
+      {
+        "aide": "Grand Abois",
+        "syssi": "8500188",
+        "type_modification": "Déplacement pour suivre l'évolution des fonds",
+        "position_avant": {
+          "latitude": 46.262467,
+          "longitude": -1.279683,
+          "texte_source": "46°15,748 N 1°16,781 W"
+        },
+        "position_apres": {
+          "latitude": 46.262617,
+          "longitude": -1.279717,
+          "texte_source": "46°15,757 N 1°16,783 W"
+        },
+        "nature_support": "Bouée",
+        "diametre_mm": 1200,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "financement": "Subdivision de La Rochelle",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        },
+        "notes": "Bouée de grand diamètre formant porte"
+      },
+      {
+        "aide": "Battures N°1",
+        "syssi": "8500187",
+        "type_modification": "Déplacement pour suivre l'évolution des fonds",
+        "position_avant": {
+          "latitude": 46.286667,
+          "longitude": -1.261200,
+          "texte_source": "46°17,200 N 1°15,672 W"
+        },
+        "position_apres": {
+          "latitude": 46.286583,
+          "longitude": -1.261283,
+          "texte_source": "46°17,195 N 1°15,677 W"
+        },
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "financement": "Subdivision de La Rochelle",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      },
+      {
+        "aide": "Battures N°3",
+        "syssi": "8500189",
+        "type_modification": "Déplacement pour suivre l'évolution des fonds",
+        "position_avant": {
+          "latitude": 46.289750,
+          "longitude": -1.262850,
+          "texte_source": "46°17,385 N 1°15,771 W"
+        },
+        "position_apres": {
+          "latitude": 46.289667,
+          "longitude": -1.262900,
+          "texte_source": "46°17,380 N 1°15,774 W"
+        },
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "financement": "Subdivision de La Rochelle",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      },
+      {
+        "aide": "Battures N°5",
+        "syssi": "8500342",
+        "type_modification": "Déplacement pour suivre l'évolution des fonds",
+        "position_avant": {
+          "latitude": 46.291433,
+          "longitude": -1.263633,
+          "texte_source": "46°17,486 N 1°15,818 W"
+        },
+        "position_apres": {
+          "latitude": 46.291283,
+          "longitude": -1.263767,
+          "texte_source": "46°17,477 N 1°15,826 W"
+        },
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "financement": "Ports (La Faute-sur-Mer / L'Aiguillon-sur-Mer)",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      },
+      {
+        "aide": "Battures N°6",
+        "syssi": "8500344",
+        "type_modification": "Déplacement pour suivre l'évolution des fonds",
+        "position_avant": {
+          "latitude": 46.291500,
+          "longitude": -1.265000,
+          "texte_source": "46°17,490 N 1°15,900 W"
+        },
+        "position_apres": {
+          "latitude": 46.291500,
+          "longitude": -1.264867,
+          "texte_source": "46°17,490 N 1°15,892 W"
+        },
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale bâbord",
+        "couleur_jour": "Vert",
+        "financement": "Ports (La Faute-sur-Mer / L'Aiguillon-sur-Mer)",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      },
+      {
+        "aide": "Battures N°7",
+        "syssi": "8500343",
+        "type_modification": "Déplacement pour suivre l'évolution des fonds",
+        "position_avant": {
+          "latitude": 46.293083,
+          "longitude": -1.265233,
+          "texte_source": "46°17,585 N 1°15,914 W"
+        },
+        "position_apres": {
+          "latitude": 46.293000,
+          "longitude": -1.265350,
+          "texte_source": "46°17,580 N 1°15,921 W"
+        },
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "financement": "Ports (La Faute-sur-Mer / L'Aiguillon-sur-Mer)",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      },
+      {
+        "aide": "Battures N°9",
+        "syssi": "8500327",
+        "type_modification": "Déplacement pour suivre l'évolution des fonds",
+        "position_avant": {
+          "latitude": 46.294317,
+          "longitude": -1.266667,
+          "texte_source": "46°17,659 N 1°16,000 W"
+        },
+        "position_apres": {
+          "latitude": 46.294283,
+          "longitude": -1.266717,
+          "texte_source": "46°17,657 N 1°16,003 W"
+        },
+        "nature_support": "Bouée",
+        "diametre_mm": 800,
+        "marque_type": "Latérale tribord",
+        "couleur_jour": "Rouge",
+        "financement": "Ports (La Faute-sur-Mer / L'Aiguillon-sur-Mer)",
+        "equipements": {
+          "bande_retro": true,
+          "reflecteur_radar": true
+        }
+      }
+    ]
+  },
+  
+  "tableau_recapitulatif_annexe": {
+    "note": "Tableau partiellement illisible dans l'OCR, colonnes: N° / Nom / Nom proposé / Position / Position proposée / Observation / Marque / Interprétation / N° SYSSI",
+    "structure": "Comparaison position actuelle vs position proposée pour chaque aide modifiée",
+    "systeme_coordonnees": "WGS 84",
+    "lignes_extraites": [
+      {
+        "nom_actuel": "Bouée du Lay",
+        "syssi": "8500180",
+        "position_actuelle": "46°15,748 N 1°16,784 W",
+        "position_proposee": "46°15,670 N 1°16,807 W",
+        "marque": "Cardinale Sud"
+      },
+      {
+        "nom_actuel": "Grand Abois",
+        "syssi": "8500188",
+        "position_actuelle": "46°15,748 N 1°16,781 W",
+        "position_proposee": "46°15,757 N 1°16,783 W",
+        "marque": "Latérale tribord"
+      },
+      {
+        "nom_actuel": "Battures N°1",
+        "syssi": "8500187",
+        "position_actuelle": "46°17,200 N 1°15,672 W",
+        "position_proposee": "46°17,195 N 1°15,677 W",
+        "marque": "Latérale tribord"
+      },
+      {
+        "nom_actuel": "Battures N°3",
+        "syssi": "8500189",
+        "position_actuelle": "46°17,385 N 1°15,771 W",
+        "position_proposee": "46°17,380 N 1°15,774 W",
+        "marque": "Latérale tribord"
+      },
+      {
+        "nom_actuel": "Battures N°5",
+        "syssi": "8500342",
+        "position_actuelle": "46°17,486 N 1°15,818 W",
+        "position_proposee": "46°17,477 N 1°15,826 W",
+        "marque": "Latérale tribord"
+      },
+      {
+        "nom_actuel": "Battures N°6",
+        "syssi": "8500344",
+        "position_actuelle": "46°17,490 N 1°15,900 W",
+        "position_proposee": "46°17,490 N 1°15,892 W",
+        "marque": "Latérale bâbord"
+      },
+      {
+        "nom_actuel": "Battures N°7",
+        "syssi": "8500343",
+        "position_actuelle": "46°17,585 N 1°15,914 W",
+        "position_proposee": "46°17,580 N 1°15,921 W",
+        "marque": "Latérale tribord"
+      },
+      {
+        "nom_actuel": "Battures N°9",
+        "syssi": "8500327",
+        "position_actuelle": "46°17,659 N 1°16,000 W",
+        "position_proposee": "46°17,657 N 1°16,003 W",
+        "marque": "Latérale tribord"
+      },
+      {
+        "nom_actuel": "Battures N°7",
+        "nom_propose": "Battures N°11",
+        "syssi": "8500245",
+        "position": "46°17,763 N 1°16,157 W",
+        "observation": "Changement de nom uniquement",
+        "marque": "Latérale tribord"
+      }
+    ]
+  },
+  
+  "aides_concernees_total": [
+    "8500180",
+    "8500187",
+    "8500188",
+    "8500189",
+    "8500245",
+    "8500327",
+    "8500342",
+    "8500343",
+    "8500344"
+  ],
+  
+  "observations_techniques": {
+    "recommandations_bureau_sm4": [
+      "Examen de la largeur du chenal disponible aux points critiques",
+      "Vérification que les concessions de cultures marines ne constituent pas d'obstacles à long terme",
+      "Uniformisation des dispositions de financement",
+      "Transfert du financement aux collectivités (sauf bouée du Lay)",
+      "Inclusion du renouvellement dans les responsabilités des collectivités"
+    ],
+    "points_vigilance": [
+      "Rétrécissement du chenal navigable entre concessions de cultures marines et avancée des bancs",
+      "Extension prévisible des bancs dans le quadrant Sud-Est de la pointe d'Argay",
+      "Évolution bathymétrique continue nécessitant ajustements réguliers"
+    ],
+    "procedure_future": {
+      "nom": "Principe d'ajustement de chenal",
+      "conditions": "À nombre constant d'aides à la navigation",
+      "processus_simplifie": "Commission nautique locale → Avis favorable → Adaptation → Information nautique → Information a posteriori commission des phares",
+      "avantage": "Pas de consultation systématique de la commission des phares pour ajustements bathymétriques"
+    }
+  },
+  
+  "effet_juridique": {
+    "entree_vigueur": "Immédiatement dès confirmation par l'information nautique",
+    "diffusion": [
+      "Information nautique réglementaire",
+      "Transmission au SHOM pour mise à jour des cartes marines"
+    ],
+    "base_juridique": "Décret n°2010-130 du 11 février 2010 (organisation et missions DIRM) - Décret n°97-34 du 15 janvier 1997 devenu sans substance"
+  },
+  
+  "pieces_jointes_mentionnees": [
+    "PJ 1: Projet de la DIRM NAMO",
+    "PJ 2: Analyse du projet par l'experte nautique (courrier du 21 avril 2017)",
+    "PJ 3: Avis de la commission des Phares"
+  ],
+  
+  "copies_transmises": [
+    "Directeur-adjoint chargé de la sécurité maritime DIRM NAMO",
+    "Chef de la division infrastructures et établissements de signalisation maritime (DIESM)",
+    "Subdivision des Phares et balises de Lézardrieux, antenne de St Malo",
+    "Directeur technique Eau, Mer, et Fleuve du Cerema (CeremaEMF, TI)",
+    "SHOM (Section cartes et ouvrages nautiques)",
+    "SM (Chrono SM4, dossier, XH, JLF)"
+  ],
+  
+  "notes_extraction": {
+    "qualite_ocr": "Moyenne à mauvaise",
+    "difficultes": [
+      "Tableau annexe partiellement illisible (colonnes mal alignées, texte tronqué)",
+      "Plusieurs erreurs de reconnaissance (ex: 'transi n' au lieu de 'transition', 'I'embouchure' au lieu de 'l'embouchure')",
+      "Coordonnées GPS nécessitant conversion manuelle",
+      "Notation 'pd Bouée' non clairement expliquée (probablement 'pour déplacement' ou 'port d'Aiguillon')",
+      "Références aux pièces jointes non incluses dans le document"
+    ],
+    "ambiguites": [
+      "Type exact des 3 bouées ajoutées par le port de l'Aiguillon (tribord/bâbord non précisé explicitement)",
+      "Positions exactes dans le tableau illisible",
+      "SYSSI des 3 nouvelles bouées non attribués dans ce document"
+    ],
+    "total_aides_modifiees": 9,
+    "total_aides_nouvelles": 3,
+    "coherence_avec_document_2008": "Ce document fait suite au document 85_Le Lay01.pdf de 2008 et met à jour les positions suite à l'évolution naturelle des fonds marins"
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "nom_fichier": "85_Pointe des Corbeaux_Yeu_01.pdf",
+  "zone_geographique": "Zone de cultures marines au Nord-Ouest de la Basse de la Conche, proximité de la Pointe des Corbeaux, Île d'Yeu",
+  "departement": "85",
+  
+  "metadonnees_document": {
+    "type_document": "Prise en considération valant DM",
+    "numero_decision": "SM4 n° 3900",
+    "date_decision": "2014-06-05",
+    "autorite_emettrice": "Ministère de l'Écologie, du Développement Durable et de l'Énergie - Direction Générale des Infrastructures des Transports et de la Mer",
+    "signataire": "Jean-Luc IBOUX, Sous-directeur de la sécurité maritime (par délégation)",
+    "destinataire": "Directeur inter-régional de la mer Nord-Atlantique Manche-Ouest",
+    "service_instructeur": "Direction des Affaires Maritimes - Sous-Direction de la Sécurité Maritime - Bureau des Phares et Balises (SM4)",
+    "reference_affaire": "Jean-Luc Fontan / Fred Fressel, fred.fressel@developpement-durable.gouv.fr, 01 40 81 81 70",
+    "reference_externe": "Courrier DIRM NAMO du 25 avril 2014",
+    "base_juridique": "Circulaire du 6 août 2001 relative aux demandes de prise en considération",
+    "contexte": "Modification du balisage de la zone de cultures marines suite à un projet de pose de fibre optique sous-marine entre l'Île d'Yeu et le continent"
+  },
+  
+  "contexte_projet": {
+    "situation_initiale": {
+      "type_exploitation": "Cultures marines sur filières",
+      "surface": "26 hectares",
+      "configuration": "Rectangle de 1140 m × 230 m",
+      "nombre_filieres": 24,
+      "profondeur": "~6,50 m",
+      "localisation": "Au large de l'Île d'Yeu, proximité Pointe des Corbeaux"
+    },
+    "balisage_initial": {
+      "composition": [
+        "4 bouées de marques spéciales (2 lumineuses côté mer)",
+        "1 bouée cardinale Est lumineuse",
+        "Toutes équipées de réflecteurs radar",
+        "Positionnées aux 4 angles de la concession + cardinale Est aux abords Est"
+      ],
+      "fonction_cardinale_est": "Positionnée à l'intersection d'une ligne reliant la bouée cardinale Sud sablaire à la bouée Nord-Est de la concession ET d'une ligne reliant la bouée Sud-Est à la tourelle des Corbeaux → permet aux navires de parer le danger"
+    },
+    "projet_infrastructure": {
+      "nature": "Installation de fibre optique sous-marine",
+      "trajet": "Entre Île d'Yeu et continent",
+      "impact": "Passage sous le champ de cultures marines",
+      "consequence": "Déplacement nécessaire de la concession vers le Nord-Est"
+    },
+    "situation_projetee": {
+      "surface": "30 hectares (+4 ha)",
+      "configuration": "Rectangle de 790 m × 380 m",
+      "nombre_filieres": 24,
+      "modification_geometrique": "Réduction longueur (-350 m) + Augmentation largeur (+150 m)",
+      "balisage": "4 bouées aux 4 angles + maintien bouée cardinale Est repositionnée"
+    },
+    "validation": {
+      "commission_nautique_locale": {
+        "date": "2014-03-25",
+        "avis": "Favorable"
+      },
+      "avis_technique_cerema": {
+        "avis_global": "Favorable",
+        "observations": [
+          "Arrêté de concession doit mentionner position des 4 coins de la zone",
+          "Transmission au SHOM pour mise à jour cartes marines",
+          "Marques spéciales aux 4 coins adaptées mais vocation de bornage → pas considérées comme ESM",
+          "Bouée cardinale Est (Aladin 8500306) ne semble pas exister sur cartes marines actuelles"
+        ]
+      },
+      "commission_permanente_des_phares": {
+        "consultee": false,
+        "justification": "Repositionnement simple de balisage cohérent avec reconfiguration zone"
+      }
+    }
+  },
+  
+  "modifications_projet": {
+    "repositionnements": [
+      {
+        "aide": "Bouée cardinale Est",
+        "syssi": "8500306",
+        "nom_alternatif": "Aladin n° 8500306",
+        "type_modification": "Repositionnement géographique",
+        "position_avant": {
+          "latitude": 46.704167,
+          "longitude": -2.282500,
+          "texte_source": "46°42,250' N - 002°16,950' W"
+        },
+        "position_apres": {
+          "latitude": 46.705000,
+          "longitude": -2.281667,
+          "texte_source": "46°42,300' N - 002°16,900' W",
+          "note_ocr": "Position partiellement illisible dans annexe 2"
+        },
+        "nature_support": "Bouée",
+        "caracteristiques_physiques": {
+          "marque_type": "Cardinale Est",
+          "couleur_jour": "Noir avec bande horizontale jaune (convention cardinale Est)",
+          "voyant": true,
+          "forme_voyant": "Deux cônes superposés pointes opposées"
+        },
+        "equipements": {
+          "feu": {
+            "present": true,
+            "couleur": "blanc",
+            "rythme": "VQ(3)",
+            "texte_source": "Rythme scintillant rapide groupé par 3",
+            "periode_s": null,
+            "signification": "Scintillant rapide 3 éclats (convention cardinale Est)"
+          },
+          "reflecteur_radar": true,
+          "bande_retro": false
+        },
+        "fonction": "Marquer le danger représenté par la zone de cultures marines sur son flanc Est. Permet aux navires de parer le danger en restant à l'Est de la bouée.",
+        "statut_existant": "Bouée déclarée mais non visible sur cartes marines (selon CEREMA)",
+        "financement": "Concessionnaire (cultures marines)",
+        "notes": "Positionnée stratégiquement à l'intersection de lignes reliant cardinale Sud sablaire, bouées de concession et tourelle des Corbeaux"
+      },
+      {
+        "aide": "Bouée A",
+        "syssi": "8500307",
+        "type_modification": "Repositionnement géographique",
+        "position_avant": {
+          "latitude": null,
+          "longitude": null,
+          "texte_source": "Position illisible dans tableau annexe 1",
+          "note": "Angle Nord-Ouest de l'ancienne concession"
+        },
+        "position_apres": {
+          "latitude": null,
+          "longitude": null,
+          "texte_source": "Position illisible dans tableau annexe 2",
+          "note": "Angle de la nouvelle concession"
+        },
+        "nature_support": "Bouée",
+        "caracteristiques_physiques": {
+          "marque_type": "Marque spéciale",
+          "couleur_jour": "Jaune (convention marque spéciale)",
+          "voyant": true,
+          "forme_voyant": "Croix de Saint-André jaune"
+        },
+        "equipements": {
+          "feu": {
+            "present": false,
+            "note": "Bouée non lumineuse (côté terre)"
+          },
+          "reflecteur_radar": false,
+          "bande_retro": false
+        },
+        "fonction": "Bornage de la concession de cultures marines (angle)",
+        "statut_esm": false,
+        "notes": "Vocation de bornage, pas considérée comme ESM selon CEREMA",
+        "financement": "Concessionnaire"
+      },
+      {
+        "aide": "Bouée B",
+        "syssi": "8500308",
+        "type_modification": "Repositionnement géographique",
+        "position_avant": {
+          "latitude": null,
+          "longitude": null,
+          "texte_source": "Position illisible dans tableau annexe 1"
+        },
+        "position_apres": {
+          "latitude": null,
+          "longitude": null,
+          "texte_source": "Position illisible dans tableau annexe 2"
+        },
+        "nature_support": "Bouée",
+        "caracteristiques_physiques": {
+          "marque_type": "Marque spéciale",
+          "couleur_jour": "Jaune",
+          "voyant": true,
+          "forme_voyant": "Croix de Saint-André jaune"
+        },
+        "equipements": {
+          "feu": {
+            "present": true,
+            "couleur": "jaune",
+            "rythme": "Fl(Y)",
+            "texte_source": "Flash jaune",
+            "note": "Bouée lumineuse côté mer"
+          },
+          "reflecteur_radar": true,
+          "bande_retro": false
+        },
+        "fonction": "Bornage de la concession de cultures marines (angle côté mer)",
+        "statut_esm": false,
+        "notes": "Vocation de bornage, pas considérée comme ESM",
+        "financement": "Concessionnaire"
+      },
+      {
+        "aide": "Bouée C",
+        "syssi": "8500309",
+        "type_modification": "Repositionnement géographique",
+        "position_avant": {
+          "latitude": null,
+          "longitude": null,
+          "texte_source": "Position illisible dans tableau annexe 1"
+        },
+        "position_apres": {
+          "latitude": null,
+          "longitude": null,
+          "texte_source": "Position illisible dans tableau annexe 2"
+        },
+        "nature_support": "Bouée",
+        "caracteristiques_physiques": {
+          "marque_type": "Marque spéciale",
+          "couleur_jour": "Jaune",
+          "voyant": true,
+          "forme_voyant": "Croix de Saint-André jaune"
+        },
+        "equipements": {
+          "feu": {
+            "present": false,
+            "note": "Bouée non lumineuse (côté terre)"
+          },
+          "reflecteur_radar": false,
+          "bande_retro": false
+        },
+        "fonction": "Bornage de la concession de cultures marines (angle)",
+        "statut_esm": false,
+        "notes": "Vocation de bornage, pas considérée comme ESM",
+        "financement": "Concessionnaire"
+      },
+      {
+        "aide": "Bouée D",
+        "syssi": "8500310",
+        "type_modification": "Repositionnement géographique",
+        "position_avant": {
+          "latitude": null,
+          "longitude": null,
+          "texte_source": "Position illisible dans tableau annexe 1"
+        },
+        "position_apres": {
+          "latitude": null,
+          "longitude": null,
+          "texte_source": "Position illisible dans tableau annexe 2"
+        },
+        "nature_support": "Bouée",
+        "caracteristiques_physiques": {
+          "marque_type": "Marque spéciale",
+          "couleur_jour": "Jaune",
+          "voyant": true,
+          "forme_voyant": "Croix de Saint-André jaune"
+        },
+        "equipements": {
+          "feu": {
+            "present": true,
+            "couleur": "jaune",
+            "rythme": "Fl(Y)",
+            "texte_source": "Flash jaune",
+            "note": "Bouée lumineuse côté mer"
+          },
+          "reflecteur_radar": true,
+          "bande_retro": false
+        },
+        "fonction": "Bornage de la concession de cultures marines (angle côté mer)",
+        "statut_esm": false,
+        "notes": "Vocation de bornage, pas considérée comme ESM",
+        "financement": "Concessionnaire"
+      }
+    ]
+  },
+  
+  "aides_concernees_total": [
+    "8500306",
+    "8500307",
+    "8500308",
+    "8500309",
+    "8500310"
+  ],
+  
+  "configuration_balisage": {
+    "principe": "Balisage périmétrique de zone de cultures marines",
+    "composition": {
+      "bornage": [
+        {
+          "role": "Marques d'angle",
+          "nombre": 4,
+          "type": "Marques spéciales jaunes",
+          "syssi": ["8500307", "8500308", "8500309", "8500310"],
+          "statut_esm": false,
+          "justification": "Vocation de bornage de concession privée"
+        }
+      ],
+      "securite_navigation": [
+        {
+          "role": "Avertissement danger",
+          "nombre": 1,
+          "type": "Cardinale Est",
+          "syssi": ["8500306"],
+          "statut_esm": true,
+          "justification": "Marque officielle de sécurité maritime"
+        }
+      ]
+    },
+    "geometrie": {
+      "forme": "Rectangle",
+      "avant": "1140 m × 230 m",
+      "apres": "790 m × 380 m",
+      "deplacement": "Nord-Est"
+    }
+  },
+  
+  "vocabulaire_technique": {
+    "marque_speciale": "Bouée jaune avec croix de Saint-André, utilisée pour marquer des zones spéciales (cultures marines, câbles, zones réglementées, etc.)",
+    "cardinale_est": "Marque noire et jaune indiquant que les eaux navigables se trouvent à l'Est de la marque. Voyant: 2 cônes superposés pointes opposées. Feu: VQ(3) (scintillant rapide groupé par 3).",
+    "vq_3": "Very Quick (3) = Scintillant rapide groupé par 3 éclats, caractéristique des cardinales Est",
+    "cultures_marines": "Élevage de coquillages (huîtres, moules) sur filières immergées",
+    "filieres": "Cordes horizontales tendues entre bouées, sur lesquelles sont suspendues les poches de coquillages",
+    "parer_le_danger": "Éviter l'obstacle en passant du côté indiqué par la marque cardinale",
+    "prise_en_consideration": "Procédure simplifiée pour modifications mineures, tenant lieu de décision ministérielle",
+    "esm": "Établissement de Signalisation Maritime - statut officiel des aides à la navigation"
+  },
+  
+  "financement": {
+    "responsable": "Concessionnaire (exploitant cultures marines)",
+    "perimetre": [
+      "Investissement initial",
+      "Entretien courant",
+      "Renouvellement éventuel"
+    ],
+    "aides_concernees": "Ensemble du balisage (5 bouées) y compris la bouée cardinale Est",
+    "base_reglementaire": "Dispositions réglementaires relatives aux cultures marines",
+    "notes": "Financement privé car lié à une activité commerciale (cultures marines). La bouée cardinale Est, bien qu'ESM, reste à charge du concessionnaire car directement liée à son exploitation."
+  },
+  
+  "observations_techniques": {
+    "distinction_esm_bornage": {
+      "bouees_bornage": [
+        "Bouées A, B, C, D (marques spéciales jaunes)",
+        "Vocation: délimiter propriété privée (concession)",
+        "Statut: NON considérées comme ESM",
+        "Analogie: équivalent de poteaux de clôture"
+      ],
+      "bouee_securite": [
+        "Bouée cardinale Est (8500306)",
+        "Vocation: sécurité de la navigation générale",
+        "Statut: OUI considérée comme ESM",
+        "Fonction: permet aux navires d'éviter le danger"
+      ]
+    },
+    "anomalie_cartographique": {
+      "constat_cerema": "Bouée cardinale Est (8500306) déclarée mais non visible sur cartes marines",
+      "position_declaree": "46°42,250' N - 002°16,950' W",
+      "action_requise": "Transmission au SHOM pour mise à jour après repositionnement"
+    },
+    "procedure_simplifiee": {
+      "type": "Prise en considération valant décision ministérielle",
+      "justification": "Repositionnement simple sans modification des caractéristiques techniques",
+      "avantage": "Pas de consultation de la commission permanente des phares"
+    }
+  },
+  
+  "contexte_geographique": {
+    "reperes_mentionnes": [
+      {
+        "nom": "Pointe des Corbeaux",
+        "type": "Cap/Pointe terrestre",
+        "localisation": "Île d'Yeu"
+      },
+      {
+        "nom": "Basse de la Conche",
+        "type": "Haut-fond/Danger sous-marin",
+        "position_relative": "Zone de cultures marines au Nord-Ouest"
+      },
+      {
+        "nom": "Tourelle des Corbeaux",
+        "type": "Tourelle de signalisation",
+        "utilite": "Point de repère pour positionnement cardinale Est"
+      },
+      {
+        "nom": "Bouée cardinale Sud sablaire",
+        "type": "Bouée cardinale (non concernée par le projet)",
+        "utilite": "Point de repère pour positionnement cardinale Est"
+      }
+    ]
+  },
+  
+  "effet_juridique": {
+    "entree_vigueur": "Après diffusion réglementaire de l'information nautique",
+    "diffusion_requise": [
+      "Information nautique réglementaire",
+      "Transmission au SHOM pour mise à jour cartes marines",
+      "Mention dans arrêté de concession des positions des 4 coins"
+    ],
+    "statut_decision": "Prise en considération tenant lieu de décision ministérielle"
+  },
+  
+  "pieces_jointes": [
+    {
+      "numero": "Annexe 1",
+      "contenu": "Tableau de balisage actuel",
+      "statut_extraction": "Partiellement illisible (positions GPS manquantes)"
+    },
+    {
+      "numero": "Annexe 2",
+      "contenu": "Tableau de balisage modifié",
+      "statut_extraction": "Partiellement illisible (positions GPS manquantes sauf 8500306)"
+    },
+    {
+      "numero": "Annexe 3",
+      "contenu": "Plan de balisage existant et projeté",
+      "statut_extraction": "Non inclus dans l'OCR (page image)"
+    }
+  ],
+  
+  "copies_transmises": [
+    "Directeur-adjoint chargé de la sécurité maritime DIRM NAMO",
+    "Chef de la division infrastructures et équipements de signalisation maritime",
+    "Subdivision de Saint-Nazaire",
+    "Directeur technique de la direction technique Eau, Mer et Fleuves du CEREMA (DTecEMF, DT/TSMF)",
+    "SM (Chrono SM4, dossier FF et JLF)"
+  ],
+  
+  "notes_extraction": {
+    "qualite_ocr": "Moyenne",
+    "difficultes": [
+      "Tableaux annexes 1 et 2 largement illisibles (structure tabulaire non reconnue)",
+      "Positions GPS manquantes pour bouées A, B, C, D",
+      "Rythmes de feux partiellement illisibles dans annexes",
+      "Annexe 3 (plan) non extraite (page image)",
+      "Symboles mathématiques mal reconnus (× devient ?, hectares → ?)",
+      "Erreurs de reconnaissance: 'ao0t' au lieu de 'août', 'zmh' au lieu de date"
+    ],
+    "ambiguites": [
+      "Position exacte après modification de la bouée 8500306 (partiellement illisible)",
+      "Positions exactes des 4 bouées de bornage avant/après",
+      "Rythmes exacts des feux jaunes (Fl(Y) supposé, période non précisée)",
+      "Portées des feux non mentionnées"
+    ],
+    "donnees_manquantes": [
+      "Coordonnées GPS précises des bouées A, B, C, D",
+      "Schéma visuel du plan de balisage (Annexe 3 non OCRisée)",
+      "Caractéristiques techniques détaillées des feux (portées, hauteurs focales)",
+      "Dimensions exactes des bouées (diamètres)"
+    ],
+    "particularites": [
+      "Document rare: concerne cultures marines (activité commerciale privée)",
+      "Distinction claire ESM vs non-ESM (bornage vs sécurité)",
+      "Financement intégralement privé y compris pour l'ESM (cardinale Est)",
+      "Marques spéciales jaunes (rares, généralement pour zones réglementées)",
+      "Contexte infrastructure: fibre optique sous-marine (nouveau)",
+      "Cardinale Est: marque 'fantôme' (déclarée mais absente des cartes)"
+    ],
+    "total_aides_modifiees": 5,
+    "type_modification_dominant": "Repositionnement géographique sans changement de caractéristiques techniques",
+    "enjeu_principal": "Déplacement de concession pour permettre passage câble sous-marin"
+  },
+  
+  "enseignements_extraction": {
+    "nouveau_cas_usage": "Cultures marines = balisage mixte ESM + bornage privé",
+    "distinction_juridique": "Même SYSSI ne signifie pas forcément ESM (statut dépend de la fonction)",
+    "marques_speciales": "Couleur jaune avec feu jaune Fl(Y) pour marques spéciales",
+    "cardinales": {
+      "est": {
+        "couleur": "Noir + bande jaune horizontale",
+        "voyant": "2 cônes pointes opposées",
+        "feu": "VQ(3) blanc",
+        "signification": "Danger à l'Ouest, passer à l'Est"
+      }
+    },
+    "procedure_simplifiee": "Prise en considération = DM allégée pour modifications mineures"
+  }
+}
