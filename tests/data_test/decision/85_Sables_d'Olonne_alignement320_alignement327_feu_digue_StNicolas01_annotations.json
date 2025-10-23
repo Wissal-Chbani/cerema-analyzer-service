@@ -1,0 +1,323 @@
+{
+  "nom_fichier": "85_Sables_d'Olonne_alignement320_alignement327_feu_digue_StNicolas01[1].pdf",
+  "zone_geographique": "Port des Sables-d'Olonne (port de pêche, commerce et plaisance)",
+  "departement": "85",
+  
+  "metadonnees_document": {
+    "type_document": "CdP",
+    "numero_decision": "Procès-verbal n° 7 - SM4/N°03363",
+    "date_decision": "2002-06-25",
+    "autorite_emettrice": "Commission des Phares - Commission Permanente",
+    "contexte": "Modifications de la signalisation maritime de l'accès au port des Sables-d'Olonne pour améliorer l'identification des feux et normaliser les rythmes"
+  },
+  
+  "mesures_principales": [
+    {
+      "titre": "1. Passe Sud-Est Alignement 320° ",
+      "type_mouillage": "Permanent - Structure fixe",
+      "objectif": "Normaliser le rythme du feu et améliorer son identification",
+      "description": "Modification du rythme du feu postérieur pour le rendre identique au feu antérieur (jetée Est) avec lequel il forme l'alignement à 320°",
+      "nombre_total_bouees": 2,
+      "aides": [
+        {
+          "syssi": "1014000",
+          "nom_patrimoine": "Feu antérieur de l'alignement 320° - Jetée Est",
+          "nom_alternatif": "ESM n°1014/000 - Feu de la jetée Est des Sables",
+          
+          "position": {
+            "latitude": 46.491667,
+            "longitude": -1.490333,
+            "texte_source": "46°29,500'N 001°29,420'W",
+            "systeme": "WGS84",
+            "precision": null
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Feu sur structure fixe",
+            "type_bouee": null,
+            "diametre_mm": null,
+            "hauteur_m": null,
+            "marque_type": "Latérale tribord / Alignement",
+            "couleur_jour": null,
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            
+            "feu": {
+              "present": true,
+              "couleur": "vert",
+              "rythme": "Scintillant continu",
+              "periode_s": 1.2,
+              "portee_M": 8,
+              "secteurs": "tout_horizon",
+              "texte_source": "feu vert au rythme scintillant continu (1,2s) et d'une portée nominale d'environ 8M"
+            },
+            
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Feu non modifié. Implanté côté Est de l'entrée du port, sur le musoir de la jetée Est. Caractère latéral tribord. Forme avec le feu postérieur de la Chaume l'alignement à 320°"
+        },
+        {
+          "syssi": "1015000",
+          "nom_patrimoine": "Feu postérieur de l'alignement 320° - La Chaume",
+          "nom_alternatif": "ESM n°1015/000 - Tour d'Arundel",
+          
+          "position": {
+            "latitude": 46.493883,
+            "longitude": -1.794433,
+            "texte_source": "46°29,633'N 001°47,766'W",
+            "systeme": "WGS84",
+            "precision": null
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Feu sur structure fixe",
+            "type_bouee": null,
+            "diametre_mm": null,
+            "hauteur_m": null,
+            "marque_type": "Alignement",
+            "couleur_jour": null,
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            
+            "feu": {
+              "present": true,
+              "couleur": "blanc",
+              "rythme": "Scintillant continu",
+              "periode_s": 1.2,
+              "portee_M": 12,
+              "secteurs": "sectoriel",
+              "texte_source": "nouveau rythme à scintillements continus (1,2s) identique à celui du feu vert de la jetée Est (ESM n°1014/000), nouvelle portée nominale d'environ 12M"
+            },
+            
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Feu MODIFIÉ. Rythme précédent Oc(3) 12s vers scintillant continu 1,2s. Portée réduite de 12,5M à 12M. Secteur atténué de 90° entre relèvements 167°30' et 257°30'. Supporté par la Tour d'Arundel sur quai Georges V à la Chaume. Implanté au Nord-Ouest de l'entrée du port"
+        }
+      ]
+    },
+    {
+      "titre": "2. Modification de l'alignement à 328,1° (entrée du port)",
+      "type_mouillage": "Permanent - Structure fixe",
+      "objectif": "Rendre les feux plus identifiables dans environnement urbain lumineux et visibles de jour",
+      "description": "Rythmer et synchroniser les deux feux directionnels de l'alignement 328,1°, les rendre lumineux de jour",
+      "nombre_total_bouees": 2,
+      "aides": [
+        {
+          "syssi": "1016000",
+          "nom_patrimoine": "Feu antérieur alignement 328,1°",
+          "nom_alternatif": "ESM n°1016/000 - Quai de la Chaume",
+          
+          "position": {
+            "latitude": 46.495383,
+            "longitude": -1.794633,
+            "texte_source": "46°29,723'N 001°47,678'W",
+            "systeme": "WGS84",
+            "precision": null
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Feu sur structure fixe",
+            "type_bouee": null,
+            "diametre_mm": null,
+            "hauteur_m": null,
+            "marque_type": "Alignement",
+            "couleur_jour": "Visible de jour",
+            "voyant": true,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            
+            "feu": {
+              "present": true,
+              "couleur": "rouge",
+              "rythme": "Iso",
+              "periode_s": 4.0,
+              "portee_M": 9,
+              "secteurs": "sectoriel",
+              "texte_source": "rythme isophase (4s), synchronisé, nouvelle portée nominale d'environ 9M, rendu lumineux de jour"
+            },
+            
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Feu MODIFIÉ. Rythme précédent fixe rouge vers isophase 4s. Feu directionnel secteur 6° (325,1° à 331,1°). Portée réduite de 11M à 9M (changement lampe 90W vers 40W). Côté Ouest du chenal d'entrée du port. Rendu lumineux de jour"
+        },
+        {
+          "syssi": "1017000",
+          "nom_patrimoine": "Feu postérieur alignement 328,1°",
+          "nom_alternatif": "ESM n°1017/000 - Quai de la Chaume",
+          
+          "position": {
+            "latitude": 46.495867,
+            "longitude": -1.794983,
+            "texte_source": "46°29,752'N 001°47,699'W",
+            "systeme": "WGS84",
+            "precision": "65m et dans l'azimut 328,1° à partir du feu antérieur"
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Feu sur structure fixe",
+            "type_bouee": null,
+            "diametre_mm": null,
+            "hauteur_m": null,
+            "marque_type": "Alignement",
+            "couleur_jour": "Visible de jour",
+            "voyant": true,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            
+            "feu": {
+              "present": true,
+              "couleur": "rouge",
+              "rythme": "Iso",
+              "periode_s": 4.0,
+              "portee_M": 9,
+              "secteurs": "sectoriel",
+              "texte_source": "rythme isophase (4s), synchronisé avec feu antérieur, nouvelle portée nominale d'environ 9M, rendu lumineux de jour"
+            },
+            
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Feu MODIFIÉ. Rythme précédent fixe rouge vers isophase 4s synchronisé. Feu directionnel secteur 6° (325,1° à 331,1°). Portée réduite de 11M à 9M (changement lampe 90W vers 40W). Distance 65m du feu antérieur, azimut 328,1°. Rendu lumineux de jour"
+        }
+      ]
+    },
+    {
+      "titre": "3. Modification du feu de la jetée Saint-Nicolas",
+      "type_mouillage": "Permanent - Structure fixe",
+      "objectif": "Normaliser le rythme et remplacer l'équipement obsolète",
+      "description": "Remplacement de l'optique tournante obsolète par une optique fixe avec fanal universel, normalisation du rythme",
+      "nombre_total_bouees": 1,
+      "aides": [
+        {
+          "syssi": "1013000",
+          "nom_patrimoine": "Feu de la jetée Saint-Nicolas",
+          "nom_alternatif": "ESM n°1013/000 - Musoir jetée Ouest",
+          
+          "position": {
+            "latitude": 46.490483,
+            "longitude": -1.790667,
+            "texte_source": "43°29,29'N 001°47,44'W",
+            "systeme": "WGS84",
+            "precision": null
+          },
+          
+          "caracteristiques_physiques": {
+            "nature_support": "Feu sur structure fixe",
+            "type_bouee": null,
+            "diametre_mm": null,
+            "hauteur_m": null,
+            "marque_type": "Latérale bâbord",
+            "couleur_jour": null,
+            "voyant": false,
+            "forme_voyant": null
+          },
+          
+          "equipements": {
+            "bande_retro": false,
+            "reflecteur_radar": false,
+            
+            "feu": {
+              "present": true,
+              "couleur": "rouge",
+              "rythme": "Scintillant continu",
+              "periode_s": 1.2,
+              "portee_M": 7.8,
+              "secteurs": "sectoriel",
+              "texte_source": "nouveau rythme à scintillements continus (1,2s) identique à celui du feu vert de la jetée Est (ESM n°1014/000), portée nominale d'environ 7,8M"
+            },
+            
+            "aide_sonore": {
+              "present": false,
+              "type": null,
+              "rythme": null
+            },
+            
+            "ais_aton": false,
+            "racon": {
+              "present": false,
+              "lettre_morse": null
+            }
+          },
+          
+          "notes": "Feu MODIFIÉ. Rythme précédent Fl(2) 1s vers scintillant continu 1,2s. Portée réduite de 10M à 7,8M. Caractère latéral bâbord. Secteur rouge 311° (143° à 94°), obscur sur 49° (94° à 143°). Remplacement optique tournante par optique fixe avec fanal universel. Musoir jetée côté Ouest de l'entrée du chenal"
+        }
+      ]
+    }
+  ],
+  
+  "notes_extraction": {
+    "qualite_ocr": "moyenne",
+    "difficultes": [
+      "Position du feu Saint-Nicolas semble erronée (43°29,29'N au lieu de 46°29,29'N probable)",
+      "Distinction entre état avant/après modification nécessite lecture attentive",
+      "Plusieurs pages avec informations redondantes (courrier, rapport, procès-verbal)"
+    ],
+    "ambiguites": [
+      "Position exacte du feu Saint-Nicolas à valider (latitude 43° vs 46° attendu)",
+      "Détails techniques des panneaux de jour pour alignement 328,1° non précisés",
+      "Caractéristiques exactes du secteur atténué du feu de la Chaume"
+    ],
+    "total_aides_detectees": 5
+  }
+}
