@@ -2,17 +2,32 @@
 Application principale CEREMA Analyzer Service
 """
 import uvicorn
+import traceback
+import os
+from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
+from fastapi.requests import Request
 import logging
 
 from config import API_HOST, API_PORT, LOG_LEVEL
 from core.utils import setup_logging
 from api.routes import router
 
-# Configuration du logging
-setup_logging(log_level=LOG_LEVEL)
+# Créer le dossier logs s'il n'existe pas
+log_dir = Path(__file__).parent.parent / "logs"
+log_dir.mkdir(exist_ok=True)
+log_file = log_dir / "cerema.log"
+
+# Configuration du logging avec fichier
+setup_logging(log_level="DEBUG", log_file=str(log_file))
 logger = logging.getLogger(__name__)
+
+logger.info("=" * 70)
+logger.info("🔧 Configuration du logging")
+logger.info(f"📁 Fichier de log: {log_file}")
+logger.info("=" * 70)
 
 # Création de l'application FastAPI
 app = FastAPI(
@@ -41,6 +56,32 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    """Capture toutes les erreurs non gérées et les loggue."""
+    error_detail = traceback.format_exc()
+    
+    logger.error("=" * 70)
+    logger.error("❌ ERREUR NON GÉRÉE")
+    logger.error("=" * 70)
+    logger.error(f"URL: {request.url}")
+    logger.error(f"Méthode: {request.method}")
+    logger.error(f"Erreur: {exc}")
+    logger.error("Traceback complet:")
+    logger.error(error_detail)
+    logger.error("=" * 70)
+    
+    return JSONResponse(
+        status_code=500,
+        content={
+            "error": str(exc),
+            "type": type(exc).__name__,
+            "details": error_detail
+        },
+    )
+
+
 # Configuration CORS
 app.add_middleware(
     CORSMiddleware,
@@ -63,6 +104,7 @@ async def startup_event():
     logger.info(f"🌐 API accessible sur: http://{API_HOST}:{API_PORT}")
     logger.info(f"📚 Documentation: http://{API_HOST}:{API_PORT}/docs")
     logger.info(f"📊 Statistiques: http://{API_HOST}:{API_PORT}/api/v1/statistics")
+    logger.info(f"📁 Fichier de log: {log_file}")
     logger.info("=" * 70)
 
 

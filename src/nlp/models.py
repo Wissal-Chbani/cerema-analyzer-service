@@ -1,11 +1,12 @@
 """
-Modèles de données pour les aides à la navigation
+Modèles de données pour les aides à la navigation - Pydantic v2
 """
 from datetime import datetime
-from typing import Optional, Dict, Any, List
+from typing import Optional, Dict, Any, List, Union
 from bson import ObjectId
-from pydantic import BaseModel, Field, GetJsonSchemaHandler
+from pydantic import BaseModel, Field, field_validator, ConfigDict
 from pydantic.json_schema import JsonSchemaValue
+from pydantic_core import core_schema
 
 
 class PyObjectId(ObjectId):
@@ -13,10 +14,7 @@ class PyObjectId(ObjectId):
     
     @classmethod
     def __get_pydantic_core_schema__(cls, source_type, handler):
-        """Pydantic v2 schema"""
-        from pydantic_core import core_schema
-        
-        # Accepter à la fois str ET ObjectId
+        """Pydantic v2 core schema"""
         return core_schema.union_schema([
             core_schema.is_instance_schema(ObjectId),
             core_schema.no_info_after_validator_function(
@@ -37,7 +35,7 @@ class PyObjectId(ObjectId):
         raise ValueError(f"Invalid type for ObjectId: {type(v)}")
     
     @classmethod
-    def __get_pydantic_json_schema__(cls, core_schema, handler: GetJsonSchemaHandler) -> JsonSchemaValue:
+    def __get_pydantic_json_schema__(cls, core_schema, handler):
         """Schema JSON pour la documentation"""
         return {"type": "string", "format": "objectid"}
 
@@ -51,7 +49,7 @@ class FeuModel(BaseModel):
     type_signal: Optional[str] = None
     rythme_detaille: Optional[str] = None
 
-    model_config = {"json_encoders": {ObjectId: str}}
+    model_config = ConfigDict(json_encoders={ObjectId: str})
 
 
 class AideSonoreModel(BaseModel):
@@ -59,7 +57,7 @@ class AideSonoreModel(BaseModel):
     type: Optional[str] = None
     rythme: Optional[str] = None
 
-    model_config = {"json_encoders": {ObjectId: str}}
+    model_config = ConfigDict(json_encoders={ObjectId: str})
 
 
 class BaliseRaconModel(BaseModel):
@@ -67,7 +65,7 @@ class BaliseRaconModel(BaseModel):
     present: bool = False
     lettre_morse: Optional[str] = None
 
-    model_config = {"json_encoders": {ObjectId: str}}
+    model_config = ConfigDict(json_encoders={ObjectId: str})
 
 
 class BoueeExempleModel(BaseModel):
@@ -77,7 +75,45 @@ class BoueeExempleModel(BaseModel):
     marque: Optional[str] = None
     numero: Optional[str] = None
 
-    model_config = {"json_encoders": {ObjectId: str}}
+    model_config = ConfigDict(json_encoders={ObjectId: str})
+
+
+class DocumentSourceModel(BaseModel):
+    """Modèle du document source MongoDB"""
+    id: Optional[PyObjectId] = Field(default_factory=PyObjectId, alias="_id")
+    chemin_local: str
+    cree_le: Union[datetime, Dict[str, str]]
+    mime_type: str
+    modifie_le: Union[datetime, Dict[str, str]]
+    nom_fichier: str
+    taille: int
+    ajoute_le: Optional[Union[datetime, Dict[str, str]]] = None
+    texte_ocr: Optional[str] = None
+
+    @field_validator('cree_le', 'modifie_le', 'ajoute_le', mode='before')
+    @classmethod
+    def parse_date(cls, v):
+        """Convertit les dates MongoDB en datetime Python"""
+        if v is None:
+            return None
+        
+        if isinstance(v, datetime):
+            return v
+        
+        if isinstance(v, dict) and '$date' in v:
+            date_str = v['$date']
+            return datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        
+        if isinstance(v, str):
+            return datetime.fromisoformat(v.replace('Z', '+00:00'))
+        
+        return v
+
+    model_config = ConfigDict(
+        populate_by_name=True,
+        arbitrary_types_allowed=True,
+        json_encoders={ObjectId: str}
+    )
 
 
 class AideNavigationModel(BaseModel):
@@ -90,87 +126,50 @@ class AideNavigationModel(BaseModel):
     taille: int
 
     # META-DONNÉES D'EXTRACTION
-    extraction_status: str = "pending"  # success | partial | failed | skipped
+    extraction_status: str = "pending"
     extraction_confidence: float = 0.0
     extraction_method: Optional[str] = None
     extraction_warnings: List[str] = []
     extraction_date: Optional[datetime] = None
-
-    # TYPE DE DOCUMENT
     type_document: Optional[str] = None
     nombre_aides: int = 1
     voir_document_original: bool = False
     raison_reference_originale: Optional[str] = None
 
-    # Identification
+    # --- IDENTIFICATION ---
     n_sysi: Optional[str] = None
     nom_patrimoine: Optional[str] = None
     nom_bapteme: Optional[str] = None
 
-    # Localisation
+    # --- LOCALISATION ---
     position: Optional[str] = None
-    systeme_geodesique: Optional[str] = None
-    zone: Optional[str] = None
 
-    # Support physique
+    # --- SUPPORT PHYSIQUE ---
     nature_support: Optional[str] = None
-    hauteur_support: Optional[float] = None
-    altitude_base: Optional[float] = None
 
-    # Signalisation
+    # --- SIGNALISATION ---
     marque: Optional[str] = None
-    caractere: Optional[str] = None  # Alias pour marque
-    fonction: Optional[str] = None
-    classement: Optional[str] = None
-    validite: Optional[str] = None
     marque_jour: Optional[str] = None
     voyant: Optional[bool] = None
     bande_retro_reflechissante: Optional[bool] = None
     reflecteur_radar: Optional[bool] = None
 
-    # Feu
+    # --- FEU ---
     feu: Optional[FeuModel] = None
 
-    # Sonore / Électronique
+    # --- SONORE / ELECTRONIQUE ---
     aide_sonore: Optional[AideSonoreModel] = None
     ais_aton: Optional[bool] = None
     balise_racon: Optional[BaliseRaconModel] = None
 
-    # Métier
+    # --- METIER ---
     date_decision: Optional[datetime] = None
-    date_arrete: Optional[datetime] = None
-    reference_arrete: Optional[str] = None
-
-    # Mode d'accès
-    mode_acces: Optional[str] = None
-
-    # Pour les tableaux complexes
-    exemples_bouees: Optional[List[BoueeExempleModel]] = None
 
     # Métadonnées d'extraction
     extraction_metadata: Optional[Dict[str, Any]] = None
 
-    model_config = {
-        "populate_by_name": True,
-        "arbitrary_types_allowed": True,
-        "json_encoders": {ObjectId: str},
-    }
-
-
-class DocumentSourceModel(BaseModel):
-    """Modèle du document source MongoDB"""
-    id: Optional[PyObjectId] = Field(default_factory=PyObjectId, alias="_id")
-    chemin_local: str
-    cree_le: datetime
-    mime_type: str
-    modifie_le: datetime
-    nom_fichier: str
-    taille: int
-    ajoute_le: Optional[datetime] = None
-    texte_ocr: Optional[str] = None  # Si le texte OCR est stocké
-
-    model_config = {
-        "populate_by_name": True,
-        "arbitrary_types_allowed": True,
-        "json_encoders": {ObjectId: str},
-    }
+    model_config = ConfigDict(
+        populate_by_name=True,
+        arbitrary_types_allowed=True,
+        json_encoders={ObjectId: str}
+    )
